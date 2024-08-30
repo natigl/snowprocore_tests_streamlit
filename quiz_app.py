@@ -6,8 +6,8 @@ import os
 # Función para cargar y preparar los datos
 def load_data():
     # Usamos st.secrets para manejar la ruta del archivo de manera segura
-    csv_path = st.secrets["csv_path"]
-    df = pd.read_csv(csv_path, header=None)
+    csv_path = st.secrets["global"]["csv_path"]
+    df = pd.read_csv(csv_path)
     questions = []
     for _, row in df.iterrows():
         question = {
