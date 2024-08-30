@@ -19,7 +19,7 @@ A. SYSADMIN
 B. SECURITYADMIN Most Voted
 C. PUBLIC
 D. ACCOUNTADMIN
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 5: True or False: Bulk unloading of data from Snowflake supports the use of a SELECT statement.
 A. True Most Voted
 B. False
@@ -55,7 +55,7 @@ Respuesta correcta: A
 Pregunta 11: True or False: The COPY command must specify a File Format in order to execute.
 A. True
 B. False Most Voted
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 12: Which of the following commands sets the Virtual Warehouse for a session?
 A. COPY WAREHOUSE FROM <<config file>>;
 B. SET WAREHOUSE = <<warehouse name>>;
@@ -69,7 +69,7 @@ C. Schemas Most Voted
 D. Shares
 E. Databases Most Voted
 F. Users
-Respuesta correcta: A,C,E,F
+Respuesta correcta: A,B,C,E
 Pregunta 14: Which object allows you to limit the number of credits consumed within a Snowflake account?
 A. Account Usage Tracking
 B. Resource Monitor Most Voted
@@ -79,74 +79,74 @@ Respuesta correcta: B
 Pregunta 15: Snowflake is designed for which type of workloads? (Choose two.)
 A. OLAP (Analytics) workloads Most Voted
 B. OLTP (Transactional) workloads
-C. Concurrent workloads Most Voted
+C. Concurrent workloads 
 D. On-premise workloads
 Respuesta correcta: A,B
 Pregunta 16: What are the three layers that make up Snowflake's architecture? (Choose three.)
-A. Compute Most Voted
+A. Compute 
 B. Tri-Secret Secure
-C. Storage Most Voted
-D. Cloud Services Most Voted
+C. Storage 
+D. Cloud Services 
 Respuesta correcta: A,C,D
 Pregunta 17: Why would a customer size a Virtual Warehouse from an X-Small to a Medium?
 A. To accommodate more queries
 B. To accommodate more users
 C. To accommodate fluctuations in workload
-D. To accommodate a more complex workload Most Voted
+D. To accommodate a more complex workload 
 Respuesta correcta: A
 Pregunta 18: True or False: Reader Accounts incur no additional Compute costs to the Data Provider since they are simply reading the shared data without making changes.
 A. True
-B. False Most Voted
+B. False
 Respuesta correcta: B
 Pregunta 19: Which of the following connectors allow Multi-Factor Authentication (MFA) authorization when connecting? (Choose all that apply.)
-A. JDBC Most Voted
-B. SnowSQL Most Voted
-C. Snowflake Web Interface (UI) Most Voted
-D. ODBC Most Voted
-E. Python Most Voted
-Respuesta correcta: A,B,C,D,E
+A. JDBC 
+B. SnowSQL 
+C. Snowflake Web Interface (UI) 
+D. ODBC 
+E. Python
+Respuesta correcta: A,D,E
 Pregunta 20: True or False: Snowflake charges a premium for storing semi-structured data.
 A. True
-B. False Most Voted
+B. False
 Respuesta correcta: B
 Pregunta 21: Which of the following statements describes a benefit of Snowflake's separation of compute and storage? (Choose all that apply.)
 A. Growth of storage and compute are tightly coupled together
-B. Storage expands without the requirement to add more compute Most Voted
-C. Compute can be scaled up or down without the requirement to add more storage Most Voted
-D. Multiple compute clusters can access stored data without contention Most Voted
-Respuesta correcta: BCD
+B. Storage expands without the requirement to add more compute
+C. Compute can be scaled up or down without the requirement to add more storage 
+D. Multiple compute clusters can access stored data without contention 
+Respuesta correcta: B,C,D
 Pregunta 22: True or False: It is possible to unload structured data to semi-structured formats such as JSON and Parquet.
-A. True Most Voted
+A. True 
 B. False
 Respuesta correcta: A
 Pregunta 23: In which layer of its architecture does Snowflake store its metadata statistics?
 A. Storage Layer
 B. Compute Layer
 C. Database Layer
-D. Cloud Services Layer Most Voted
+D. Cloud Services Layer
 Respuesta correcta: D
 Pregunta 24: True or False: Data in fail-safe can be deleted by a user or the Snowflake team before it expires.
 A. True
-B. False Most Voted
+B. False 
 Respuesta correcta: B
 Pregunta 25: True or False: Snowflake's data warehouse was built from the ground up for the cloud in lieu of using an existing database or a platform, like Hadoop, as a base.
-A. True Most Voted
-B. False Most Voted
+A. True 
+B. False 
 Respuesta correcta: B
 Pregunta 26: Which of the following statements are true of Virtual Warehouses? (Choose all that apply.)
-A. Customers can change the size of the Warehouse after creation Most Voted
-B. A Warehouse can be resized while running Most Voted
+A. Customers can change the size of the Warehouse after creation
+B. A Warehouse can be resized while running 
 C. A Warehouse can be configured to suspend after a period of inactivity
 D. A Warehouse can be configured to auto-resume when new queries are submitted
-Respuesta correcta: B,C
+Respuesta correcta: A,B,C,D
 Pregunta 27: The PUT command: (Choose two.)
 A. Automatically creates a File Format object
 B. Automatically uses the last Stage created
-C. Automatically compresses files using Gzip Most Voted
-D. Automatically encrypts files Most Voted
+C. Automatically compresses files using Gzip
+D. Automatically encrypts files
 Respuesta correcta: C,D
 Pregunta 28: Which type of table corresponds to a single Snowflake session?
-A. Temporary Most Voted
+A. Temporary 
 B. Transient
 C. Provisional
 D. Permanent
@@ -155,70 +155,70 @@ Pregunta 29: Which interfaces can be used to create and/or manage Virtual Wareho
 A. The Snowflake Web Interface (UI)
 B. SQL commands
 C. Data integration tools
-D. All of the above Most Voted
-Respuesta correcta: B
+D. All of the above 
+Respuesta correcta: A
 Pregunta 30: When a Pipe is recreated using the CREATE OR REPLACE PIPE command:
-A. The Pipe load history is reset to empty Most Voted
+A. The Pipe load history is reset to empty 
 B. The REFRESH parameter is set to TRUE
 C. Previously loaded files will be ignored
 D. All of the above
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 31: What is the minimum Snowflake edition that customers planning on storing protected information in Snowflake should consider for regulatory compliance?
 A. Standard
 B. Premier
 C. Enterprise
-D. Business Critical Edition Most Voted
+D. Business Critical Edition 
 Respuesta correcta: D
 Pregunta 32: Select the three types of tables that exist within Snowflake. (Choose three.)
-A. Temporary Most Voted
-B. Transient Most Voted
+A. Temporary
+B. Transient
 C. Provisional
-D. Permanent Most Voted
+D. Permanent 
 Respuesta correcta: A,B,D
 Pregunta 33: True or False: Snowpipe via REST API can only reference External Stages as source.
 A. True
-B. False Most Voted
+B. False
 Respuesta correcta: B
 Pregunta 34: True or False: A third-party tool that supports standard JDBC or ODBC but has no Snowflake-specific driver will be unable to connect to Snowflake.
-A. True Most Voted
-B. False Most Voted
-Respuesta correcta: A
+A. True 
+B. False 
+Respuesta correcta: B
 Pregunta 35: True or False: It is possible to load data into Snowflake without creating a named File Format object.
-A. True Most Voted
+A. True 
 B. False
 Respuesta correcta: A
 Pregunta 36: True or False: A table in Snowflake can only be queried using the Virtual Warehouse that was used to load the data.
 A. True
-B. False Most Voted
+B. False 
 Respuesta correcta: B
 Pregunta 37: Which of the following statements are true of Snowflake data loading? (Choose three.)
-A. VARIANT ג€nullג€ values are not the same as SQL NULL values Most Voted
+A. VARIANT null values are not the same as SQL NULL values
 B. It is recommended to do frequent, single row DMLs
-C. It is recommended to validate the data before loading into the Snowflake target table Most Voted
-D. It is recommended to use staging tables to manage MERGE statements Most Voted
+C. It is recommended to validate the data before loading into the Snowflake target table
+D. It is recommended to use staging tables to manage MERGE statements
 Respuesta correcta: A,C,D
 Pregunta 38: Which statements are true of micro-partitions? (Choose two.)
-A. They are approximately 16MB in size Most Voted
+A. They are approximately 16MB in size 
 B. They are stored compressed only if COMPRESS=TRUE on Table
-C. They are immutable Most Voted
+C. They are immutable 
 D. They are only encrypted in the Enterprise edition and above
 Respuesta correcta: A,C
 Pregunta 39: True or False: Query ID's are unique across all Snowflake deployments and can be used in communication with Snowflake Support to help troubleshoot issues.
-A. True Most Voted
-B. False Most Voted
-Respuesta correcta: B
+A. True 
+B. False 
+Respuesta correcta: A
 Pregunta 40: A deterministic query is run at 8am, takes 5 minutes, and the results are cached. Which of the following statements are true? (Choose two.)
 A. The exact query will ALWAYS return the precomputed result set for the RESULT_CACHE_ACTIVE = time period
-B. The same exact query will return the precomputed results if the underlying data hasn't changed and the results were last accessed within previous 24 hour period Most Voted
+B. The same exact query will return the precomputed results if the underlying data hasn't changed and the results were last accessed within previous 24 hour period 
 C. The same exact query will return the precomputed results even if the underlying data has changed as long as the results were last accessed within the previous 24 hour period
-D. The ג€24 hourג€ timer on the precomputed results gets renewed every time the exact query is executed Most Voted
+D. The 24 hour timer on the precomputed results gets renewed every time the exact query is executed
 Respuesta correcta: B,D
 Pregunta 41: Increasing the maximum number of clusters in a Multi-Cluster Warehouse is an example of:
 A. Scaling rhythmically
 B. Scaling max
 C. Scaling out Most Voted
 D. Scaling up
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 42: Which statement best describes Snowflake tables?
 A. Snowflake tables are logical representations of underlying physical data Most Voted
 B. Snowflake tables are the physical instantiation of data loaded into Snowflake
@@ -256,11 +256,11 @@ C. LOB
 D. VARIANT Most Voted
 Respuesta correcta: D
 Pregunta 48: Which of the following statements are true of Snowflake releases: (Choose two.)
-A. They happen approximately weekly Most Voted
+A. They happen approximately weekly 
 B. They roll up and release approximately monthly, but customers can request early release application
 C. During a release, new customer requests/queries/connections transparently move over to the newer version Most Voted
 D. A customer is assigned a 30 minute window (that can be moved anytime within a week) during which the system will be unavailable and customer is upgraded
-Respuesta correcta: C,D
+Respuesta correcta: A,C
 Pregunta 49: Which of the following are common use cases for zero-copy cloning? (Choose three.)
 A. Quick provisioning of Dev and Test/QA environments Most Voted
 B. Data backups Most Voted
@@ -268,14 +268,14 @@ C. Point in time snapshots Most Voted
 D. Performance optimization
 Respuesta correcta: A,B,C
 Pregunta 50: If a Small Warehouse is made up of 2 servers/cluster, how many servers/cluster make up a Medium Warehouse?
-A. 4 Most Voted
+A. 4 
 B. 16
 C. 32
 D. 128
 Respuesta correcta: A
 Pregunta 51: True or False: When a data share is established between a Data Provider and a Data Consumer, the Data Consumer can extend that data share to other DataConsumers.
 A. True
-B. False Most Voted
+B. False 
 Respuesta correcta: B
 Pregunta 52: Which is true of Snowflake network policies? A Snowflake network policy: (Choose two.)
 A. Is available to all Snowflake Editions Most Voted
@@ -286,7 +286,7 @@ Respuesta correcta: A,C
 Pregunta 53: True or False: Snowflake charges additional fees to Data Providers for each Share they create.
 A. True
 B. False Most Voted
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 54: Query results are stored in the Result Cache for how long after they are last accessed, assuming no data changes have occurred?
 A. 1 Hour
 B. 3 Hours
@@ -319,27 +319,27 @@ D. At the instance/instant a clone is created, all micro-partitions in the origi
 Respuesta correcta: D
 Pregunta 59: True or False: When a user creates a role, they are initially assigned ownership of the role and they maintain ownership until it is transferred to another user.
 A. True
-B. False Most Voted
+B. False 
 Respuesta correcta: A
 Pregunta 60: The Query History in the Snowflake Web Interface (UI) is kept for approximately:
 A. 60 minutes
 B. 24 hours
-C. 14 days Most Voted
+C. 14 days 
 D. 30 days
 E. 1 year
-Respuesta correcta: E
+Respuesta correcta: C
 Pregunta 61: To run a Multi-Cluster Warehouse in auto-scale mode, a user would:
 A. Configure the Maximum Clusters setting to ג€Auto-Scaleג€
-B. Set the Warehouse type to ג€Autoג€
+B. Set the Warehouse type to Auto
 C. Set the Minimum Clusters and Maximum Clusters settings to the same value
-D. Set the Minimum Clusters and Maximum Clusters settings to the different values Most Voted
+D. Set the Minimum Clusters and Maximum Clusters settings to the different values
 Respuesta correcta: D
 Pregunta 62: Which of the following terms best describes Snowflake's database architecture?
 A. Columnar shared nothing
 B. Shared disk
 C. Multi-cluster, shared data Most Voted
 D. Cloud-native shared memory
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 63: Which of the following are options when creating a Virtual Warehouse? (Choose two.)
 A. Auto-drop
 B. Auto-resize
@@ -379,7 +379,7 @@ A. You can only use it on Internal Stages
 B. All COPY INTO options are available during pipe creation
 C. Snowflake automatically manages the compute required to execute the Pipe's COPY INTO commands Most Voted
 D. Snowpipe keeps track of which files it has loaded Most Voted
-Respuesta correcta: B,D
+Respuesta correcta: C,D
 Pregunta 70: Snowflake recommends, as a minimum, that all users with the following role(s) should be enrolled in Multi-Factor Authentication (MFA):
 A. SECURITYADMIN, ACCOUNTADMIN, PUBLIC, SYSADMIN
 B. SECURITYADMIN, ACCOUNTADMIN, SYSADMIN
@@ -391,7 +391,7 @@ A. 12am-5am
 B. Only during administrator defined time slots
 C. When its provisioning is complete Most Voted
 D. After replication
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 72: True or False: Users are able to see the result sets of queries executed by other users that share their same role.
 A. True
 B. False Most Voted
@@ -403,8 +403,8 @@ Respuesta correcta: B
 Pregunta 74: True or False: Pipes can be suspended and resumed.
 A. True Most Voted
 B. False
-Respuesta correcta: B
-Pregunta 75: Which of the following languages can be used to implement Snowflake User Defined Functions (UDFs)? (Choose two.)
+Respuesta correcta: A
+Pregunta 75: Which of the following languages can be used to implement Snowflake User Defined Functions (UDFs)? (Choose two.) TODAS SON CORRECTAS PERO SOLO HAY QUE ELEGIR 2.
 A. Java
 B. Javascript
 C. SQL
@@ -421,7 +421,7 @@ A. Bulk copy from an External Stage Most Voted Most Voted
 B. Continuous load using Snowpipe REST API Most Voted Most Voted
 C. The Snowflake Web Interface (UI) data loading wizard Most Voted
 D. Bulk copy from an Internal Stage Most Voted
-Respuesta correcta: A,B,C
+Respuesta correcta: A,B,D
 Pregunta 78: If auto-suspend is enabled for a Virtual Warehouse, the Warehouse is automatically suspended when:
 A. All Snowflakes sessions using the Warehouse are terminated.
 B. The last query using the Warehouse completes.
@@ -443,13 +443,13 @@ A. The VALIDATION_MODE option is used when creating an Internal Stage
 B. VALIDATION_MODE=RETURN_ALL_ERRORS is a parameter of the COPY command Most Voted
 C. The VALIDATION_MODE option will validate data to be loaded by the COPY statement while completing the load and will return the rows that could not be loaded without error
 D. The VALIDATION_MODE option will validate data to be loaded by the COPY statement without completing the load and will return possible errors Most Voted
-Respuesta correcta: B,C
+Respuesta correcta: B,D
 Pregunta 82: What privileges are required to create a task?
 A. The GLOBAL privilege CREATE TASK is required to create a new task.
 B. Tasks are created at the Application level and can only be created by the Account Admin role.
 C. Many Snowflake DDLs are metadata operations only, and CREATE TASK DDL can be executed without virtual warehouse requirement or task specific grants.
 D. The role must have access to the target schema and the CREATE TASK privilege on the schema itself. Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 83: What are the three things customer want most from their enterprise data warehouse solution? (Choose three.)
 A. On-premise availability
 B. Simplicity Most Voted
@@ -460,7 +460,7 @@ Respuesta correcta: B,D,E
 Pregunta 84: True or False: Some queries can be answered through the metadata cache and do not require an active Virtual Warehouse.
 A. True Most Voted
 B. False
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 85: When scaling out by adding clusters to a multi-cluster warehouse, you are primarily scaling for improved:
 A. Concurrency
 B. Performance
@@ -474,7 +474,7 @@ Respuesta correcta: A
 Pregunta 87: True or False: Each worksheet in the Snowflake Web Interface (UI) can be associated with different roles, databases, schemas, and Virtual Warehouses.
 A. True Most Voted
 B. False
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 88: True or False: You can query the files in an External Stage directly without having to load the data into a table.
 A. True Most Voted
 B. False
@@ -484,7 +484,7 @@ A. Structured data
 B. Semi-structured data Most Voted
 C. Both of the above
 D. None of the above
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 90: True or False: An active warehouse is required to run a COPY INTO statement.
 A. True Most Voted
 B. False
@@ -541,7 +541,7 @@ A. Account
 B. Database
 C. Schema
 D. Table Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 101: Which of the following statements is true of Snowflake micro-partitioning?
 A. Micro-partitioning has been known to introduce data skew
 B. Micro-partitioning: requires a partitioning schema to be defined up front
@@ -583,7 +583,7 @@ Respuesta correcta: A
 Pregunta 109: True or False: When a new Snowflake object is created, it is automatically owned by the user who created it.
 A. True
 B. False Most Voted
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 110: True or False: A Virtual Warehouse consumes Snowflake credits even when inactive.
 A. True Most Voted
 B. False Most Voted
@@ -623,7 +623,7 @@ A. Installing and configuring hardware Most Voted
 B. Patching software Most Voted Most Voted
 C. Physical security
 D. Maintaining metadata and statistics Most Voted Most Voted
-Respuesta correcta: A,B,D
+Respuesta correcta: A,B,C,D
 Pregunta 118: Which of the following statements would be used to export/unload data from Snowflake?
 A. COPY INTO @stage
 B. EXPORT TO @stage
@@ -633,7 +633,7 @@ Respuesta correcta: A
 Pregunta 119: True or False: A 4X-Large Warehouse may, at times, take longer to provision than a X-Small Warehouse.
 A. True Most Voted
 B. False
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 120: How would you determine the size of the virtual warehouse used for a task?
 A. Root task may be executed concurrently (i.e. multiple instances), it is recommended to leave some margins in the execution window to avoid missing instances of execution
 B. Querying (SELECT) the size of the stream content would help determine the warehouse size. For example, if querying large stream content, use a larger warehouse size
@@ -695,11 +695,11 @@ Respuesta correcta: A,C
 Pregunta 132: True or False: Fail-safe can be disabled within a Snowflake account.
 A. True
 B. False Most Voted
-Respuesta correcta: A
-Pregunta 133: True or False: It is possible for a user to run a query against the query result cache without requiring an active Warehouse.
-A. True Most Voted
-B. False
 Respuesta correcta: B
+Pregunta 133: True or False: It is possible for a user to run a query against the query result cache without requiring an active Warehouse.
+A. True 
+B. False
+Respuesta correcta: A
 Pregunta 134: True or False: When Snowflake is configured to use Single Sign-On (SSO), Snowflake receives the usernames and credentials from the SSO service and loads them into the customer's Snowflake account.
 A. True
 B. False Most Voted
@@ -711,7 +711,7 @@ C. Enclose fields that contain delimiter characters in single or double quotes. 
 D. Split large files into a greater number of smaller files to distribute the load among the compute resources in an active warehouse. Most Voted
 E. When planning which warehouse(s) to use for data loading, start with the largest warehouse possible.
 F. Partition the staged data into large folders with random paths, allowing Snowflake to determine the best way to load each file.
-Respuesta correcta: B,C,E
+Respuesta correcta: A,C,D
 Pregunta 136: Which Snowflake feature is used for both querying and restoring data?
 A. Cluster keys
 B. Time Travel Most Voted
@@ -744,7 +744,7 @@ B. Existing child objects within the database Most Voted
 C. Future child objects within the database
 D. Privileges on the schemas within the database Most Voted
 E. Only schemas and tables within the database
-Respuesta correcta: B,E
+Respuesta correcta: B,D
 Pregunta 141: Which of the following describes the Snowflake Cloud Services layer?
 A. Coordinates activities in the Snowflake account Most Voted
 B. Executes queries submitted by the Snowflake account users
@@ -762,7 +762,7 @@ A. A single join node uses more than 50% of the query time
 B. Partitions scanned is equal to partitions total
 C. An AggregateOperator node is present
 D. The query is spilling to remote storage Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 144: What type of query benefits the MOST from search optimization?
 A. A query that uses only disjunction (i.e., OR) predicates
 B. A query that includes analytical expressions
@@ -782,7 +782,7 @@ B. The ability to auto-suspend a warehouse is only available in the Enterprise e
 C. SnowSQL supports both a configuration file and a command line option for specifying a default warehouse. Most Voted
 D. A user cannot specify a default warehouse when using the ODBC driver.
 E. The default virtual warehouse size can be changed at any time.
-Respuesta correcta: A
+Respuesta correcta: C,E
 Pregunta 147: Which command should be used to load data from a file, located in an external stage, into a table in Snowflake?
 A. INSERT
 B. PUT
@@ -822,21 +822,21 @@ B. Authentication and access control Most Voted
 C. Metadata management Most Voted
 D. Query processing
 E. Database storage
-Respuesta correcta: C,D
+Respuesta correcta: B,C
 Pregunta 153: What is a key feature of Snowflake architecture?
 A. Zero-copy cloning creates a mirror copy of a database that updates with the original.
 B. Software updates are automatically applied on a quarterly basis.
 C. Snowflake eliminates resource contention with its virtual warehouse implementation. Most Voted
 D. Multi-cluster warehouses allow users to run a query that spans across multiple clusters.
 E. Snowflake automatically sorts DATE columns during ingest, for fast retrieval by date.
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 154: When publishing a Snowflake Data Marketplace listing into a remote region what should be taken into consideration? (Choose two.)
 A. There is no need to have a Snowflake account in the target region, a share will be created for each user.
 B. The listing is replicated into all selected regions automatically, the data is not. Most Voted
 C. The user must have the ORGADMIN role available in at least one account to link accounts for replication.
 D. Shares attached to listings in remote regions can be viewed from any account in an organization.
 E. For a standard listing the user can wait until the first customer requests the data before replicating it to the target region. Most Voted
-Respuesta correcta: A,C
+Respuesta correcta: B,E
 Pregunta 155: When loading data into Snowflake via Snowpipe what is the compressed file size recommendation?
 A. 10-50 MB
 B. 100-250 MB
@@ -844,7 +844,7 @@ C. 300-500 MB
 D. 1000-1500 MB
 Respuesta correcta: B
 Pregunta 156: Which Snowflake feature allows a user to substitute a randomly generated identifier for sensitive data, in order to prevent unauthorized users access to the data, before loading it into Snowflake?
-A. External Tokenization Most Voted
+A. External Tokenization 
 B. External Tables
 C. Materialized Views
 D. User-Defined Table Functions (UDTF)
@@ -872,7 +872,7 @@ A. Possibly, if the warehouse is resized to a smaller size and the cache no long
 B. Yes, because the compute resource is replaced in its entirety with a new compute resource.
 C. No, because the size of the cache is independent from the warehouse size.
 D. Yes, because the new compute resource will no longer have access to the cache encryption key.
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 161: Which semi-structured file formats are supported when unloading data from a table? (Choose two.)
 A. ORC
 B. XML
@@ -893,7 +893,7 @@ C. Virtual warehouse caching
 D. Query parsing and optimization Most Voted
 E. Query execution
 F. Physical storage of micro-partitions
-Respuesta correcta: A,D,E
+Respuesta correcta: A,C,D
 Pregunta 164: How long is the Fail-safe period for temporary and transient tables?
 A. There is no Fail-safe period for these tables.
 B. 1 day
@@ -903,7 +903,7 @@ E. 90 days
 Respuesta correcta: A
 Pregunta 165: Which command should be used to download files from a Snowflake stage to a local folder on a client's machine?
 A. PUT
-B. GET Most Voted
+B. GET 
 C. COPY
 D. SELECT
 Respuesta correcta: B
@@ -948,33 +948,33 @@ C. Warehouse
 D. External table Most Voted
 E. User
 F. Share
-Respuesta correcta: C,D
+Respuesta correcta: B,D
 Pregunta 172: Which of the following statements describe features of Snowflake data caching? (Choose two.)
 A. When a virtual warehouse is suspended, the data cache is saved on the remote storage layer.
 B. When the data cache is full, the least-recently used data will be cleared to make room. Most Voted
 C. A user can only access their own queries from the query result cache.
 D. A user must set USE_METADATA_CACHE to TRUE to use the metadata cache in queries.
 E. The RESULT_SCAN table function can access and filter the contents of the query result cache. Most Voted
-Respuesta correcta: B,D
+Respuesta correcta: B,E
 Pregunta 173: A table needs to be loaded. The input data is in JSON format and is a concatenation of multiple JSON documents. The file size is 3 GB. A warehouse size S is being used. The following COPY INTO command was executed:COPY INTO SAMPLE FROM @~/SAMPLE.JSON (TYPE=JSON)The load failed with this error:Max LOB size (16777216) exceeded, actual size of parsed column is 17894470.How can this issue be resolved?
 A. Compress the file and load the compressed file.
 B. Split the file into multiple files in the recommended size range (100 MB - 250 MB).
 C. Use a larger-sized warehouse.
 D. Set STRIP_OUTER_ARRAY=TRUE in the COPY INTO command. Most Voted
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 174: What is a feature of a stored procedure in Snowflake?
 A. They can be created as secure and hide the underlying metadata from all users.
 B. They can access tables from a single database.
 C. They can only contain a single SQL statement.
 D. They can be created to run with a caller's rights or an owner's rights. Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 175: Which columns are part of the result set of the Snowflake LATERAL FLATTEN command? (Choose two.)
 A. CONTENT
 B. PATH Most Voted
 C. BYTE_SIZE
 D. INDEX Most Voted
 E. DATATYPE
-Respuesta correcta: B,C
+Respuesta correcta: B,D
 Pregunta 176: What is the minimum Snowflake edition required to create a materialized view?
 A. Standard Edition
 B. Enterprise Edition Most Voted
@@ -986,32 +986,32 @@ A. parse_json() Most Voted
 B. json_extract_path_text()
 C. object_construct()
 D. flatten
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 178: How are serverless features billed?
 A. Per second multiplied by an automatic sizing for the job Most Voted
 B. Per minute multiplied by an automatic sizing for the job, with a minimum of one minute
 C. Per second multiplied by the size, as determined by the SERVERLESS_FEATURES_SIZE account parameter
 D. Serverless features are not billed, unless the total cost for the month exceeds 10% of the warehouse credits, on the account
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 179: Which Snowflake architectural layer is responsible for a query execution plan?
 A. Compute
 B. Data storage
 C. Cloud services Most Voted
 D. Cloud provider
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 180: When unloading to a stage, which of the following is a recommended practice or approach?
 A. Set SINGLE = TRUE for larger files.
 B. Use OBJECT_CONSTRUCT(*) when using Parquet.
 C. Avoid the use of the CAST function.
 D. Define an individual file format. Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 181: Which SQL commands, when committed, will consume a stream and advance the stream offset? (Choose two.)
 A. UPDATE TABLE FROM STREAM Most Voted
 B. SELECT FROM STREAM
 C. INSERT INTO TABLE SELECT FROM STREAM Most Voted
 D. ALTER TABLE AS SELECT FROM STREAM
 E. BEGIN COMMIT
-Respuesta correcta: C,D
+Respuesta correcta: A,C
 Pregunta 182: Which methods can be used to delete staged files from a Snowflake stage? (Choose two.)
 A. Use the DROP command after the load completes.
 B. Specify the TEMPORARY option when creating the file format.
@@ -1096,7 +1096,7 @@ B. JDBC Most Voted
 C. ODBC Most Voted Most Voted
 D. HIVE
 E. Scala
-Respuesta correcta: C,D
+Respuesta correcta: A,C
 Pregunta 195: A Snowflake Administrator needs to ensure that sensitive corporate data in Snowflake tables is not visible to end users, but is partially visible to functional managers.How can this requirement be met?
 A. Use data encryption.
 B. Use dynamic data masking. Most Voted
@@ -1120,13 +1120,13 @@ A. If the query contains a deterministic function
 B. If the virtual warehouse has been suspended
 C. If the referenced data in the table has changed Most Voted
 D. If multiple users are using the same virtual warehouse
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 199: Which of the following is an example of an operation that can be completed without requiring compute, assuming no queries have been executed previously?
 A. SELECT SUM (ORDER_AMT) FROM SALES;
 B. SELECT AVG(ORDER_QTY) FROM SALES;
 C. SELECT MIN(ORDER_AMT) FROM SALES; Most Voted
 D. SELECT ORDER_AMT * ORDER_QTY FROM SALES;
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 200: How many days is load history for Snowpipe retained?
 A. 1 day
 B. 7 days
@@ -1152,36 +1152,36 @@ B. Compute Credits = 80 Credits Cloud Services = 5
 C. Compute Credits = 100 Credits Cloud Services = 9
 D. Compute Credits = 120 Credits Cloud Services = 10
 E. Compute Credits = 200 Credits Cloud Services = 26 Most Voted
-Respuesta correcta: D,E
+Respuesta correcta: A,E
 Pregunta 204: A user created a new worksheet within the Snowsight UI and wants to share this with teammates.How can this worksheet be shared?
 A. Create a zero-copy clone of the worksheet and grant permissions to teammates.
 B. Create a private Data Exchange so that any teammate can use the worksheet.
 C. Share the worksheet with teammates within Snowsight. Most Voted
 D. Create a database and grant all permissions to teammates.
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 205: How can a row access policy be applied to a table or a view? (Choose two.)
 A. Within the policy DDL
-B. Within the create table or create view DDL Most Voted
+B. Within the create table or create view DDL 
 C. By future APPLY for all objects in a schema
 D. Within a control table
-E. Using the command ALTER [object] ADD ROW ACCESS POLICY [policy]; Most Voted
-Respuesta correcta: B,D
+E. Using the command ALTER [object] ADD ROW ACCESS POLICY [policy];
+Respuesta correcta: B,E
 Pregunta 206: Which command can be used to load data files into a Snowflake stage?
 A. JOIN
 B. COPY INTO
-C. PUT Most Voted
+C. PUT 
 D. GET
 Respuesta correcta: C
 Pregunta 207: What types of data listings are available in the Snowflake Data Marketplace? (Choose two.)
 A. Reader
 B. Consumer
 C. Vendor
-D. Standard Most Voted
-E. Personalized Most Voted
+D. Standard 
+E. Personalized
 Respuesta correcta: D,E
 Pregunta 208: What is the maximum Time Travel retention period for a temporary Snowflake table?
 A. 90 days
-B. 1 day Most Voted
+B. 1 day 
 C. 7 days
 D. 45 days
 Respuesta correcta: B
@@ -1205,13 +1205,13 @@ C. IBM Cloud
 D. Microsoft Azure Cloud Most Voted
 E. Google Cloud Platform Most Voted
 F. Oracle Cloud
-Respuesta correcta: B,D,E
+Respuesta correcta: A,D,E
 Pregunta 212: What is a limitation of a Materialized View?
 A. A Materialized View cannot support any aggregate functions
 B. A Materialized View can only reference up to two tables
 C. A Materialized View cannot be joined with other tables
 D. A Materialized View cannot be defined with a JOIN Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 213: In the Snowflake access control model, which entity owns an object by default?
 A. The user who created the object
 B. The SYSADMIN role
@@ -1223,7 +1223,7 @@ A. Standard
 B. Enterprise Most Voted
 C. Business Critical
 D. Virtual Private Snowflake (VPC)
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 215: Which services does the Snowflake Cloud Services layer manage? (Choose two.)
 A. Compute resources
 B. Query execution
@@ -1256,7 +1256,7 @@ B. The shared data is copied into the Data Consumer account, so the Consumer can
 C. A Snowflake account can both provide and consume shared data. Most Voted
 D. The Provider is charged for compute resources used by the Data Consumer to query the shared data.
 E. The Data Consumer pays only for compute resources to query the shared data. Most Voted
-Respuesta correcta: B,C
+Respuesta correcta: C,D
 Pregunta 220: The following JSON is stored in a VARIANT column called src of the CAR_SALES table:A user needs to extract the dealership information from the JSON.How can this be accomplished?
 A. select src:dealership from car_sales; Most Voted
 B. select src.dealership from car_sales;
@@ -1268,7 +1268,7 @@ A. Clustering
 B. Materialized Views
 C. Zero-copy Cloning
 D. Search Optimization Service Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 222: Which of the following accurately describes shares?
 A. Tables, secure views, and secure UDFs can be shared Most Voted
 B. Shares can be shared
@@ -1288,7 +1288,7 @@ B. Bytes sent over the network
 C. Number of partitions scanned Most Voted
 D. Percentage scanned from cache Most Voted Most Voted
 E. External bytes scanned
-Respuesta correcta: B,D
+Respuesta correcta: A,C
 Pregunta 225: What is the minimum Snowflake edition required for row level security?
 A. Standard
 B. Enterprise Most Voted
@@ -1320,13 +1320,13 @@ B. How often the underlying base table is queried
 C. How often the base table changes Most Voted
 D. Whether the materialized view has a cluster key defined Most Voted
 E. How often the materialized view is queried
-Respuesta correcta: D,E
+Respuesta correcta: C,D
 Pregunta 230: What COPY INTO SQL command should be used to unload data into multiple files?
 A. SINGLE=TRUE
 B. MULTIPLE=TRUE
 C. MULTIPLE=FALSE
 D. SINGLE=FALSE Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 231: When cloning a database containing stored procedures and regular views, that have fully qualified table references, which of the following will occur?
 A. The cloned views and the stored procedures will reference the cloned tables in the cloned database.
 B. An error will occur, as views with qualified references cannot be cloned.
@@ -1352,13 +1352,13 @@ A. SHOW GRANTS OF ROLE MY_ROLE Most Voted
 B. SHOW GRANTS TO ROLE MY_ROLE
 C. SHOW GRANTS FOR ROLE MY_ROLE
 D. SHOW GRANTS ON ROLE MY_ROLE
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 235: What is the MINIMUM edition of Snowflake that is required to use a SCIM security integration?
 A. Business Critical Edition
 B. Standard Edition Most Voted
 C. Virtual Private Snowflake (VPS)
 D. Enterprise Edition
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 236: A user created a transient table and made several changes to it over the course of several days. Three days after the table was created, the user would like to go back to the first version of the table.How can this be accomplished?
 A. Use Time Travel, as long as DATA_RETENTION_TIME_IN_DAYS was set to at least 3 days.
 B. The transient table version cannot be retrieved after 24 hours. Most Voted
@@ -1397,7 +1397,7 @@ B. Snowflake requires a user to configure an IAM user to connect to the database
 C. All data in Snowflake is encrypted. Most Voted
 D. Snowflake can run within a user's own Virtual Private Cloud (VPC).
 E. All data in Snowflake is compressed.
-Respuesta correcta: A,D
+Respuesta correcta: A,C
 Pregunta 242: A single user of a virtual warehouse has set the warehouse to auto-resume and auto-suspend after 10 minutes. The warehouse is currently suspended and the user performs the following actions:1. Runs a query that takes 3 minutes to complete2. Leaves for 15 minutes3. Returns and runs a query that takes 10 seconds to complete4. Manually suspends the warehouse as soon as the last query was completedWhen the user returns, how much billable compute time will have been consumed?
 A. 4 minutes
 B. 10 minutes
@@ -1410,33 +1410,33 @@ B. The query history view
 C. The SHOW WAREHOUSES command
 D. The WAREHOUSE_METERING_HISTORY view Most Voted
 E. The billing and usage tab in the Snowflake web UI Most Voted
-Respuesta correcta: A,D
+Respuesta correcta: D,E
 Pregunta 244: What actions will prevent leveraging of the ResultSet cache? (Choose two.)
 A. Removing a column from the query SELECT list Most Voted
 B. Stopping the virtual warehouse that the query is running against
 C. Clustering of the data used by the query Most Voted
 D. Executing the RESULTS_SCAN() table function
 E. Changing a column that is not in the cached query
-Respuesta correcta: A,D
+Respuesta correcta: A,E
 Pregunta 245: Which statement is true about running tasks in Snowflake?
 A. A task can be called using a CALL statement to run a set of predefined SQL commands.
 B. A task allows a user to execute a single SQL statement/command using a predefined schedule. Most Voted
 C. A task allows a user to execute a set of SQL commands on a predefined schedule.
 D. A task can be executed using a SELECT statement to run a predefined SQL command.
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 246: Which data types does Snowflake support when querying semi-structured data? (Choose two.)
 A. VARIANT Most Voted
 B. VARCHAR
 C. XML
 D. ARRAY Most Voted
 E. BLOB
-Respuesta correcta: C,D
+Respuesta correcta: A,D
 Pregunta 247: In an auto-scaling multi-cluster virtual warehouse with the setting SCALING_POLICY = ECONOMY enabled, when is another cluster started?
 A. When the system has enough load for 2 minutes
 B. When the system has enough load for 6 minutes Most Voted
 C. When the system has enough load for 8 minutes
 D. When the system has enough load for 10 minutes
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 248: What is the following SQL command used for?Select * from table(validate(t1, job_id => '_last'));
 A. To validate external table files in table t1 across all sessions
 B. To validate task SQL statements against table t1 in the last 14 days
@@ -1454,7 +1454,7 @@ A. When increasing the size of an active warehouse the compute resource for all 
 B. When reducing the size of a warehouse the compute resources are removed only when they are no longer being used to execute any current statements. Most Voted
 C. The warehouse will be suspended while the new compute resource is provisioned and will resume automatically once provisioning is complete.
 D. Users who are trying to use the warehouse will receive an error message until the resizing is complete.
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 251: What tasks can be completed using the COPY command? (Choose two.)
 A. Columns can be aggregated.
 B. Columns can be joined with an existing table.
@@ -1467,19 +1467,19 @@ A. Database Storage
 B. Cloud Services
 C. Query Processing Most Voted
 D. Application Services
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 253: Query compilation occurs in which architecture layer of the Snowflake Cloud Data Platform?
 A. Compute layer
 B. Storage layer
 C. Cloud infrastructure layer
 D. Cloud services layer Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 254: If a size Small virtual warehouse is made up of two servers, how many servers make up a Large warehouse?
 A. 4
 B. 8 Most Voted
 C. 16
 D. 32
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 255: A clustering key was defined on a table, but it is no longer needed.How can the key be removed?
 A. ALTER TABLE [TABLE NAME] PURGE CLUSTERING KEY
 B. ALTER TABLE [TABLE NAME] DELETE CLUSTERING KEY
@@ -1497,27 +1497,27 @@ A. MFA can be enforced or applied for a given role.
 B. Snowflake users are automatically enrolled in MFA.
 C. Users enroll in MFA by submitting a request to Snowflake Support.
 D. MFA is an integrated Snowflake feature. Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 258: What data type should be used to store JSON data natively in Snowflake?
 A. JSON
 B. String
 C. Object
 D. VARIANT Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 259: What should be considered when deciding to use a Secure View? (Choose two.)
 A. No details of the query execution plan will be available in the query profiler. Most Voted
 B. Once created there is no way to determine if a view is secure or not.
 C. Secure views do not take advantage of the same internal optimizations as standard views. Most Voted
 D. It is not possible to create secure materialized views.
 E. The view definition of a secure view is still visible to users by way of the information schema.
-Respuesta correcta: C,E
+Respuesta correcta: A,C
 Pregunta 260: The information schema provides storage information for which of the following objects? (Choose two.)
 A. Users
 B. Databases Most Voted Most Voted
 C. Internal stages Most Voted
 D. Resource monitors
 E. Pipes Most Voted
-Respuesta correcta: B,D
+Respuesta correcta: B,C
 Pregunta 261: What is a responsibility of Snowflake’s virtual warehouses?
 A. Infrastructure management
 B. Metadata management
@@ -1530,19 +1530,19 @@ A. Binary
 B. Float Most Voted
 C. Geography
 D. Variant
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 263: When unloading data to an external stage, which compression format can be used for Parquet files with the COPY INTO command?
 A. BROTLI
 B. GZIP
 C. LZO Most Voted
 D. ZSTD
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 264: Which SQL command can be used to verify the privileges that are granted to a role?
 A. SHOW GRANTS ON ROLE
 B. SHOW ROLES
 C. SHOW GRANTS TO ROLE Most Voted
 D. SHOW GRANTS FOR ROLE
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 265: Which Query Profile result indicates that a warehouse is sized too small?
 A. There are a lot of filter nodes.
 B. Bytes are spilling to external storage.
@@ -1554,20 +1554,20 @@ A. 1 day Most Voted
 B. 7 days
 C. 45 days
 D. 90 days
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 267: Which of the following are best practice recommendations that should be considered when loading data into Snowflake? (Choose two.)
 A. Load files that are approximately 25 MB or smaller.
 B. Remove all dates and timestamps.
 C. Load files that are approximately 100-250 MB (or larger). Most Voted
 D. Avoid using embedded characters such as commas for numeric data types. Most Voted
 E. Remove semi-structured data types.
-Respuesta correcta: A,D
+Respuesta correcta: C,D
 Pregunta 268: Which schema has the RESOURCE_MONITORS view?
 A. ACCOUNT_USAGE
 B. READER_ACCOUNT_USAGE Most Voted
 C. INFORMATION_SCHEMA
 D. WAREHOUSE_USAGE_SCHEMA
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 269: What is the purpose of enabling Federated Authentication on a Snowflake account?
 A. Disables the ability to use key pair and basic authentication (e.g., username/password) when connecting
 B. Allows dual Multi-Factor Authentication (MFA) when connecting to Snowflake
@@ -1594,7 +1594,7 @@ C. Identity Access Management (AM)
 D. Create, Read, Update, and Delete (CRUD)
 E. Discretionary Access Control (DAC)
 F. Mandatory Access Control (MAC)
-Respuesta correcta: A
+Respuesta correcta: B,E
 Pregunta 273: According to Snowflake best practice recommendations, which role should be used to create databases?
 A. ACCOUNTADMIN
 B. SYSADMIN Most Voted
@@ -1607,26 +1607,26 @@ B. The OWNERSHIP privilege on the table Most Voted
 C. A SECURITYADMIN role
 D. The ADD SEARCH OPTIMIZATION privilege on the schema that contains the table Most Voted
 E. The SELECT privilege on the table
-Respuesta correcta: A,D
+Respuesta correcta: B,D
 Pregunta 275: While using a COPY command with a Validation_mode parameter, which of the following statements will return an error?
 A. Statements that insert a duplicate record during a load
 B. Statements that have a specific data type in the source
 C. Statements that have duplicate file names
 D. Statements that transform data during a load Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 276: When is the result set cache no longer available? (Choose two.)
 A. When another warehouse is used to execute the query
 B. When another user executes the query
 C. When the underlying data has changed Most Voted
 D. When the warehouse used to execute the query is suspended
 E. When it has been 24 hours since the last query
-Respuesta correcta: C
+Respuesta correcta: C,E
 Pregunta 277: What is the recommended file sizing for data loading using Snowpipe?
 A. A compressed file size greater than 100 MB, and up to 250 MB Most Voted
 B. A compressed file size greater than 100 GB, and up to 250 GB
 C. A compressed file size greater than 10 MB, and up to 100 MB
 D. A compressed file size greater than 1 GB, and up to 2 GB
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 278: Which statements are true concerning Snowflake’s underlying cloud infrastructure? (Choose three.)
 A. Snowflake data and services are deployed in a single availability zone within a cloud provider’s region.
 B. Snowflake data and services are available in a single cloud provider and a single region; the use of multiple cloud providers is not supported.
@@ -1634,7 +1634,7 @@ C. Snowflake can be deployed in a customer’s private cloud using the customer�
 D. Snowflake uses the core compute and storage services of each cloud provider for its own compute and storage. Most Voted
 E. All three layers of Snowflake’s architecture (storage, compute, and cloud services) are deployed and managed entirely on a selected cloud platform. Most Voted
 F. Snowflake data and services are deployed in at least three availability zones within a cloud provider’s region. Most Voted
-Respuesta correcta: D, E, F
+Respuesta correcta: D,E,F
 Pregunta 279: A user unloaded a Snowflake table called mytable to an internal stage called mystage.Which command can be used to view the list of files that has been uploaded to the stage?
 A. list @mytable;
 B. list @%mytable;
@@ -1646,13 +1646,13 @@ A. Create the custom role using the SYSADMIN role.
 B. Assign the custom role to the SYSADMIN role. Most Voted
 C. Assign the custom role to the PUBLIC role.
 D. Add _CUSTOM to all custom role names.
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 281: Which is the MINIMUM required Snowflake edition that a user must have if they want to use AWS/Azure Privatelink or Google Cloud Private Service Connect?
 A. Standard
 B. Premium
 C. Enterprise
 D. Business Critical Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 282: Which of the following query profiler variables will indicate that a virtual warehouse is not sized correctly for the query being executed?
 A. Bytes sent over the network
 B. Synchronization
@@ -1665,7 +1665,7 @@ B. Automatic encryption of all data Most Voted
 C. Up to 90 days of data recovery through Time Travel
 D. Object-level access control
 E. Column-level security to apply data masking policies to tables and views
-Respuesta correcta: C
+Respuesta correcta: B,D
 Pregunta 284: A PUT command can be used to stage local files from which Snowflake interface?
 A. SnowSQL Most Voted
 B. Snowflake classic web interface (UI)
@@ -1678,7 +1678,7 @@ B. DML statements that are being issued against the table are blocked.
 C. The table has a small number of micro-partitions.
 D. Queries on the table are running slower than expected. Most Voted
 E. The clustering depth for the table is large. Most Voted
-Respuesta correcta: A,E
+Respuesta correcta: D,E
 Pregunta 286: Which cache type is used to cache data output from SQL queries?
 A. Metadata cache
 B. Result cache
@@ -1717,7 +1717,7 @@ B. SECURITYADMIN Most Voted
 C. PUBLIC
 D. ACCOUNTADMIN
 E. USERADMIN Most Voted
-Respuesta correcta: A,B
+Respuesta correcta: B,E
 Pregunta 292: When can a newly configured virtual warehouse start running SQL queries?
 A. After 50% of the warehouse provisioning has completed
 B. During the time slots defined by the ACCOUNTADMIN
@@ -1736,7 +1736,7 @@ B. Micro-partitions are immutable objects that support the use of Time Travel. M
 C. Micro-partitions can reduce the amount of I/O from object storage to virtual warehouses. Most Voted
 D. Rows are automatically stored in sorted order within micro-partitions.
 E. Micro-partitions can be defined on a schema-by-schema basis.
-Respuesta correcta: C,E
+Respuesta correcta: B,C
 Pregunta 295: Which data type can be used to store geospatial data in Snowflake?
 A. Variant
 B. Object
@@ -1755,26 +1755,26 @@ B. A stored procedure
 C. A table Most Voted
 D. A stream
 E. A pipe - E. A User-Defined Function (UDF)
-Respuesta correcta: C,E
+Respuesta correcta: A,C
 Pregunta 298: What actions are supported by Snowflake resource monitors? (Choose two.)
 A. Alert
 B. Notify Most Voted
 C. Notify and suspend Most Voted
 D. Abort
 E. Suspend immediately
-Respuesta correcta: A,C
+Respuesta correcta: B,C
 Pregunta 299: A user executes the following SQL query:create table SALES_BKP like SALES;What are the cost implications for processing this query?
 A. Processing costs will be generated based on how long the query takes.
 B. Storage costs will be generated based on the size of the data.
 C. No costs will be incurred as the query will use metadata. Most Voted
 D. The cost for running the virtual warehouse will be charged by the second.
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 300: What is the maximum length of time travel available in the Snowflake Standard Edition?
 A. 1 Day Most Voted
 B. 7 Days
 C. 30 Days
 D. 90 Days
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 301: What happens when an external or an internal stage is dropped? (Choose two.)
 A. When dropping an external stage, the files are not removed and only the stage is dropped. Most Voted
 B. When dropping an external stage, both the stage and the files within the stage are removed.
@@ -1787,7 +1787,7 @@ A. All data from all of the files on the stage will be appended to the table.
 B. Only data about new customers from the new files will be appended to the table.
 C. The operation will fail with the error UNCERTAIN FILES IN STAGE.
 D. All data from only the newly-added files will be appended to the table. Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 303: Which parameter can be used to instruct a COPY command to verify data files instead of loading them into a specified table?
 A. STRIP_NULL_VALUES
 B. SKIP_BYTE_ORDER_MARK
@@ -1799,19 +1799,19 @@ A. Execute SELECT CURRENT_ODBC_CLIENT(); from the Web UI
 B. Execute SELECT CURRENT_JDBC_VERSION(); from SnowSQL
 C. Execute SELECT CURRENT_CLIENT(); from an application Most Voted
 D. Execute SELECT CURRENT_VERSION(); from the Python Connector
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 305: Which Snowflake technique can be used to improve the performance of a query?
 A. Clustering Most Voted
 B. Indexing
 C. Fragmenting
 D. Using INDEX_HINTS
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 306: What happens to the shared objects for users in a consumer account from a share, once a database has been created in that account?
 A. The shared objects are transferred.
 B. The shared objects are copied.
 C. The shared objects become accessible. Most Voted
 D. The shared objects can be re-shared.
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 307: Using variables in Snowflake is denoted by using which SQL character?
 A. @
 B. &
@@ -1825,13 +1825,13 @@ C. grant SELECT on all tables in schema DB1.SCHEMA to role MYROLE; Most Voted
 D. grant SELECT on future tables in schema DB1.SCHEMA to role MYROLE; Most Voted
 E. grant SELECT on all tables in database DB1 to role MYROLE;
 F. grant SELECT on future tables in database DB1 to role MYROLE;
-Respuesta correcta: C,D
+Respuesta correcta: A,C
 Pregunta 309: How can a user change which columns are referenced in a view?
 A. Modify the columns in the underlying table
 B. Use the ALTER VIEW command to update the view
 C. Recreate the view with the required changes Most Voted
 D. Materialize the view to perform the changes
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 310: Which statement describes pruning?
 A. The filtering or disregarding of micro-partitions that are not needed to return a query. Most Voted
 B. The return of micro-partitions values that overlap with each other to reduce a query's runtime.
@@ -1855,39 +1855,39 @@ A. Cloud services layer Most Voted
 B. Compute layer
 C. Storage layer
 D. Cloud agnostic layer
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 314: Which of the following Snowflake objects can be shared using a secure share? (Choose two.)
 A. Materialized views
 B. Sequences
 C. Procedures
 D. Tables Most Voted
 E. Secure User Defined Functions (UDFs) Most Voted
-Respuesta correcta: A,E
+Respuesta correcta: D,E
 Pregunta 315: What happens to the underlying table data when a CLUSTER BY clause is added to a Snowflake table?
 A. Data is hashed by the cluster key to facilitate fast searches for common data values
 B. Larger micro-partitions are created for common data values to reduce the number of partitions that must be scanned
 C. Smaller micro-partitions are created for common data values to allow for more parallelism
 D. Data may be colocated by the cluster key within the micro-partitions to improve pruning performance Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 316: Which of the following conditions must be met in order to return results from the results cache? (Choose two.)
 A. The user has the appropriate privileges on the objects associated with the query. Most Voted
 B. Micro-partitions have been reclustered since the query was last run.
 C. The new query is run using the same virtual warehouse as the previous query.
 D. The query includes a User Defined Function (UDF).
 E. The query has been run within 24 hours of the previously-run query. Most Voted
-Respuesta correcta: A,C
+Respuesta correcta: A,E
 Pregunta 317: Which statement about billing applies to Snowflake credits?
 A. Credits are billed per-minute with a 60-minute minimum.
 B. Credits are used to pay for cloud data storage usage.
 C. Credits are consumed based on the number of credits billed for each hour that a warehouse runs.
 D. Credits are consumed based on the warehouse size and the time the warehouse is running. Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 318: A user needs to create a materialized view in the schema MYDB.MYSCHEMA.Which statements will provide this access?
 A. GRANT ROLE MYROLE TO USER USER1; CREATE MATERIALIZED VIEW ON SCHEMA MYDB.MYSCHEMA TO ROLE MYROLE; Most Voted
 B. GRANT ROLE MYROLE TO USER USER1; CREATE MATERIALIZED VIEW ON SCHEMA MYDB.MYSCHEMA TO USER USER1;
 C. GRANT ROLE MYROLE TO USER USER1; CREATE MATERIALIZED VIEW ON SCHEMA MYDB.MYSCHEMA TO USER1;
 D. GRANT ROLE MYROLE TO USER USER1; CREATE MATERIALIZED VIEW ON SCHEMA MYDB.MYSCHEMA TO MYROLE;
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 319: What is the purpose of multi-cluster virtual warehouses?
 A. To create separate data warehouses to increase query optimization
 B. To allow users the ability to choose the type of compute nodes that make up a virtual warehouse cluster
@@ -1913,7 +1913,7 @@ B. A Data Exchange allows groups of accounts to share data privately among the a
 C. A Data Exchange allows accounts to share data with third, non-Snowflake parties.
 D. Data Exchange functionality is available by default in accounts using the Enterprise edition or higher.
 E. The sharing of data in a Data Exchange is bidirectional. An account can be a provider for some datasets and a consumer for others. Most Voted
-Respuesta correcta: B
+Respuesta correcta: B,E
 Pregunta 323: A Snowflake user executed a query and received the results. Another user executed the same query 4 hours later. The data had not changed.What will occur?
 A. No virtual warehouse will be used, data will be read from the result cache. Most Voted
 B. No virtual warehouse will be used, data will be read from the local disk cache.
@@ -1925,19 +1925,19 @@ A. Range Partitioning
 B. Search Optimization Service Most Voted
 C. Automatic Clustering Most Voted
 D. Horizontal Partitioning
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 325: Which privilege must be granted to a share to allow secure views the ability to reference data in multiple databases?
 A. CREATE_SHARE on the account
 B. SHARE on databases and schemas
 C. SELECT on tables used by the secure view
 D. REFERENCE_USAGE on databases Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 326: In which use case does Snowflake apply egress charges?
 A. Data sharing within a specific region
 B. Query result retrieval
 C. Database replication Most Voted
 D. Loading data into Snowflake
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 327: Which of the following compute resources or features are managed by Snowflake? (Choose two.)
 A. Execute a COPY command
 B. Updating data
@@ -1951,13 +1951,13 @@ B. The query consumes many compute resources every time it runs. Most Voted
 C. The base table gets updated frequently.
 D. The query is highly optimized and does not consume many compute resources.
 E. The results of the query do not change often and are used frequently. Most Voted
-Respuesta correcta: C,E
+Respuesta correcta: B,E
 Pregunta 329: What privilege should a user be granted to change permissions for new objects in a managed access schema?
 A. Grant the OWNERSHIP privilege on the schema. Most Voted
 B. Grant the OWNERSHIP privilege on the database.
 C. Grant the MANAGE GRANTS global privilege. Most Voted
 D. Grant ALL privileges on the schema.
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 330: What happens when a Data Provider revokes privileges to a share on an object in their source database?
 A. The object immediately becomes unavailable for all Data Consumers.
 B. Any additional data arriving after this point in time will not be visible to Data Consumers.
@@ -1969,13 +1969,13 @@ A. LOAD
 B. COPY
 C. GET
 D. PUT Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 332: What is the MINIMUM Snowflake edition required to use the periodic rekeying of micro-partitions?
 A. Enterprise Most Voted
 B. Business Critical
 C. Standard
 D. Virtual Private Snowflake
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 333: Which stage type can be altered and dropped?
 A. Database stage
 B. External stage
@@ -1987,7 +1987,7 @@ A. Pipe Most Voted
 B. External stage
 C. Task
 D. Stream
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 335: A user is loading JSON documents composed of a huge array containing multiple records into Snowflake. The user enables the STRIP_OUTER_ARRAY file format option.What does the STRIP_OUTER_ARRAY file format do?
 A. It removes the last element of the outer array.
 B. It removes the outer array structure and loads the records into separate table rows. Most Voted
@@ -1999,7 +1999,7 @@ A. Each Snowflake account can be hosted in a different cloud vendor and region. 
 B. Each Snowflake account must be hosted in a different cloud vendor and region.
 C. All Snowflake accounts must be hosted in the same cloud vendor and region.
 D. Each Snowflake account can be hosted in a different cloud vendor, but must be in the same region.
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 337: If a Snowflake user decides a table should be clustered, what should be used as the cluster key?
 A. The columns that are queried in the select clause.
 B. The columns with very high cardinality.
@@ -2012,13 +2012,13 @@ B. OBJECT Most Voted
 C. BINARY
 D. ARRAY Most Voted
 E. CLOB
-Respuesta correcta: C,D
+Respuesta correcta: B,D
 Pregunta 339: A company needs to read multiple terabytes of data for an initial load as part of a Snowflake migration. The company can control the number and size of CSV extract files.How does Snowflake recommend maximizing the load performance?
 A. Use auto-ingest Snowpipes to load large files in a serverless model.
 B. Produce the largest files possible, reducing the overall number of files to process.
 C. Produce a larger number of smaller files and process the ingestion with size Small virtual warehouses. Most Voted
 D. Use an external tool to issue batched row-by-row inserts within BEGIN TRANSACTION and COMMIT commands.
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 340: For non-materialized views, what column in Information Schema and Account Usage identifies whether a view is secure or not?
 A. CHECK_OPTION
 B. IS_SECURE
@@ -2030,7 +2030,7 @@ A. In the metadata of the target table for 14 days
 B. In the metadata of the pipe for 14 days
 C. In the metadata of the target table for 64 days Most Voted
 D. In the metadata of the pipe for 64 days
-Respuesta correcta: A
+Respuesta correcta: C
 Pregunta 342: User INQUISITIVE_PERSON has been granted the role DATA_SCIENCE. The role DATA_SCIENCE has privileges OWNERSHIP on the schema MARKETING of the database ANALYTICS_DW.Which command will show all privileges granted to that schema?
 A. SHOW GRANTS ON ROLE DATA_SCIENCE
 B. SHOW GRANTS ON SCHEMA ANALYTICS_DW.MARKETING Most Voted
@@ -2055,13 +2055,13 @@ B. Array Most Voted
 C. XML
 D. Object Most Voted
 E. BLOB
-Respuesta correcta: D,E
+Respuesta correcta: B,D
 Pregunta 346: A user is preparing to load data from an external stage.Which practice will provide the MOST efficient loading performance?
 A. Organize files into logical paths Most Voted
 B. Store the files on the external stage to ensure caching is maintained
 C. Use pattern matching for regular expression execution
 D. Load the data in one large file
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 347: What effect does WAIT_FOR_COMPLETION = TRUE have when running an ALTER WAREHOUSE command and changing the warehouse size?
 A. The warehouse size does not change until all queries currently running in the warehouse have completed.
 B. The warehouse size does not change until all queries currently in the warehouse queue have completed.
@@ -2074,27 +2074,27 @@ B. Use the ENCODING file format option to change the encoding from the default U
 C. The OBJECT_CONSTRUCT function can be used to convert relational data to semi-structured data. Most Voted
 D. By using the SINGLE = TRUE parameter, a single file up to 5 GB in size can be exported to the storage layer. Most Voted
 E. Use the PARSE_JSON function to ensure structured data will be unloaded into the VARIANT data type.
-Respuesta correcta: A,D
+Respuesta correcta: C,D
 Pregunta 349: What data is stored in the Snowflake storage layer? (Choose two.)
 A. Snowflake parameters
 B. Micro-partitions Most Voted
 C. Query history Most Voted
 D. Persisted query results
 E. Standard and secure view results
-Respuesta correcta: B,D
+Respuesta correcta: B,E
 Pregunta 350: A data provider wants to share data with a consumer who does not have a Snowflake account. The provider creates a reader account for the consumer following these steps:1. Created a user called "CONSUMER"2. Created a database to hold the share and an extra-small warehouse to query the data3. Granted the role PUBLIC the following privileges: Usage on the warehouse, database, and schema, and SELECT on all the objects in the shareBased on this configuration what is true of the reader account?
 A. The reader account will automatically use the Standard edition of Snowflake.
 B. The reader account compute will be billed to the provider account. Most Voted
 C. The reader account can clone data the provider has shared, but cannot re-share it.
 D. The reader account can create a copy of the shared data using CREATE TABLE AS...
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 351: Which of the following activities consume virtual warehouse credits in the Snowflake environment? (Choose two.)
 A. Caching query results
 B. Running EXPLAIN and SHOW commands
 C. Cloning a database
 D. Running a custom query Most Voted
 E. Running COPY commands Most Voted
-Respuesta correcta: A,D
+Respuesta correcta: D,E
 Pregunta 352: When loading data into Snowflake, the COPY command supports which of the following?
 A. Joins
 B. Filters
@@ -2126,7 +2126,7 @@ C. TLS 1.2
 D. Key-pair authentication Most Voted
 E. OAuth Most Voted
 F. OCSP authentication
-Respuesta correcta: A,B,E
+Respuesta correcta: B,D,E
 Pregunta 357: A user has a standard multi-cluster warehouse auto-scaling policy in place.Which condition will trigger a cluster to shut-down?
 A. When after 2-3 consecutive checks the system determines that the load on the most-loaded cluster could be redistributed.
 B. When after 5-6 consecutive checks the system determines that the load on the most-loaded cluster could be redistributed.
@@ -2138,13 +2138,13 @@ A. Standard
 B. Enterprise
 C. Business Critical Most Voted
 D. Virtual Private Snowflake
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 359: How would a user execute a series of SQL statements using a task?
 A. Include the SQL statements in the body of the task CREATE TASK mytask .. AS INSERT INTO target1 SELECT .. FROM stream_s1 WHERE .. INSERT INTO target2 SELECT .. FROM stream_s1 WHERE ..
 B. A stored procedure can have only one DML statement per stored procedure invocation and therefore the user should sequence stored procedure calls in the task definition CREATE TASK mytask .... AS call stored_proc1(); call stored_proc2();
 C. Use a stored procedure executing multiple SQL statements and invoke the stored procedure from the task. CREATE TASK mytask .... AS call stored_proc_multiple_statements_inside(); Most Voted
 D. Create a task for each SQL statement (e.g. resulting in task1, task2, etc.) and string the series of SQL statements by having a control task calling task1, task2, etc. sequentially.
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 360: How many resource monitors can be assigned at the account level?
 A. 1 Most Voted
 B. 2
@@ -2157,13 +2157,13 @@ B. SHOW TABLES; Most Voted
 C. Information Schema -> TABLE_HISTORY
 D. Information Schema -> TABLE_FUNCTION
 E. Information Schema -> TABLE_STORAGE_METRICS Most Voted
-Respuesta correcta: A,E
+Respuesta correcta: B,E
 Pregunta 362: How would a user run a multi-cluster warehouse in maximized mode?
 A. Configure the maximum clusters setting to "Maximum."
 B. Turn on the additional clusters manually after starting the warehouse.
 C. Set the minimum Clusters and maximum Clusters settings to the same value. Most Voted
 D. Set the minimum clusters and maximum clusters settings to different values.
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 363: What internal stages are available in Snowflake? (Choose three.)
 A. Schema stage
 B. Named stage Most Voted
@@ -2171,7 +2171,7 @@ C. User stage Most Voted
 D. Stream stage
 E. Table stage Most Voted
 F. Database stage
-Respuesta correcta: A,B,E
+Respuesta correcta: B,C,E
 Pregunta 364: Which stages are used with the Snowflake PUT command to upload files from a local file system? (Choose three.)
 A. Schema Stage
 B. User Stage Most Voted
@@ -2179,7 +2179,7 @@ C. Database Stage
 D. Table Stage Most Voted
 E. External Named Stage
 F. Internal Named Stage Most Voted
-Respuesta correcta: A,E,F
+Respuesta correcta: B,D,F
 Pregunta 365: Which data type can store more than one type of data structure?
 A. JSON
 B. BINARY
@@ -2192,13 +2192,13 @@ B. ACCOUNTADMIN Most Voted
 C. SYSADMIN
 D. SECURITYADNIN Most Voted
 E. USERADMIN
-Respuesta correcta: C,D
+Respuesta correcta: B,D
 Pregunta 367: What SQL command would be used to view all roles that were granted to USER1?
 A. show grants to user USER1; Most Voted
 B. show grants user USER1;
 C. describe user USER1;
 D. show grants on user USER1;
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 368: Which ACCOUNT_USAGE views are used to evaluate the details of dynamic data masking? (Choose two.)
 A. ROLES
 B. POLICY_REFERENCES Most Voted
@@ -2206,7 +2206,7 @@ C. QUERY_HISTORY
 D. RESOURCE_MONITORS
 E. ACCESS_HISTORY
 F. MASKING_POLICIES Most Voted
-Respuesta correcta: B,E
+Respuesta correcta: B,F
 Pregunta 369: Which of the following are considerations when using a directory table when working with unstructured data? (Choose two.)
 A. A directory table is a separate database object.
 B. Directory tables store data file metadata. Most Voted
@@ -2219,19 +2219,19 @@ A. USERADMIN Most Voted
 B. PUBLIC
 C. ORGADMIN
 D. SYSADMIN
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 371: Which statement describes how Snowflake supports reader accounts?
 A. A reader account can consume data from the provider account that created it and combine it with its own data.
 B. A consumer needs to become a licensed Snowflake customer as data sharing is only supported between Snowflake accounts.
 C. The users in a reader account can query data that has been shared with the reader account and can perform DML tasks.
 D. The SHOW MANAGED ACCOUNTS command will view all the reader accounts that have been created for an account. Most Voted
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 372: How does Snowflake allow a data provider with an Azure account in central Canada to share data with a data consumer on AWS in Australia?
 A. The data provider in Azure Central Canada can create a direct share to AWS Asia Pacific, if they are both in the same organization.
 B. The data consumer and data provider can form a Data Exchange within the same organization to create a share from Azure Central Canada to AWS Asia Pacific.
 C. The data provider uses the GET DATA workflow in the Snowflake Data Marketplace to create a share between Azure Central Canada and AWS Asia Pacific.
 D. The data provider must replicate the database to a secondary account in AWS Asia Pacific within the same organization then create a share to the data consumer's account Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 373: Which Snowflake objects can be shared with other Snowflake accounts? (Choose three.)
 A. Schemas
 B. Roles
@@ -2239,7 +2239,7 @@ C. Secure Views Most Voted
 D. Stored Procedures
 E. Tables Most Voted
 F. Secure User-Defined Functions (UDFs) Most Voted
-Respuesta correcta: A,B,F
+Respuesta correcta: C,E,F
 Pregunta 374: Which Snowflake feature will allow small volumes of data to continuously load into Snowflake and will incrementally make the data available for analysis?
 A. COPY INTO
 B. CREATE PIPE
@@ -2264,7 +2264,7 @@ B. Sequence
 C. Secure view
 D. Transient table
 E. Clustered table Most Voted
-Respuesta correcta: D,E
+Respuesta correcta: A,E
 Pregunta 378: What file formats does Snowflake support for loading semi-structured data? (Choose three.)
 A. TSV
 B. JSON
@@ -2279,21 +2279,21 @@ B. All database objects can be included in a shared database.
 C. Reader Accounts are created by Data Providers. Most Voted
 D. Shared databases are read-only. Most Voted
 E. Reader Accounts are charged for warehouse usage.
-Respuesta correcta: B,D
+Respuesta correcta: C,D
 Pregunta 380: Credit charges for Snowflake virtual warehouses are calculated based on which of the following considerations? (Choose two.)
 A. The number of queries executed
 B. The number of active users assigned to the warehouse
 C. The size of the virtual warehouse Most Voted
 D. The length of time the warehouse is running Most Voted
 E. The duration of the queries that are executed
-Respuesta correcta: A,D
+Respuesta correcta: C,D
 Pregunta 381: Which of the following are handled by the cloud services layer of the Snowflake architecture? (Choose two.)
 A. Query execution
 B. Data loading
 C. Time Travel data
 D. Security Most Voted
 E. Authentication and access control Most Voted
-Respuesta correcta: B,D
+Respuesta correcta: D,E
 Pregunta 382: What is a responsibility of Snowflake’s virtual warehouses?
 A. Infrastructure management
 B. Metadata management
@@ -2306,7 +2306,7 @@ A. Querying data-related objects that were created within the past 365 days
 B. Restoring data-related objects that have been deleted within the past 90 days Most Voted
 C. Conducting point-in-time analysis for BI reporting
 D. Analyzing data usage/manipulation over all periods of time
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 384: Which of the following statements describes a schema in Snowflake?
 A. A logical grouping of objects that belongs to a single database Most Voted
 B. A logical grouping of objects that belongs to multiple databases
@@ -2318,7 +2318,7 @@ A. 8-16 MB
 B. 16-24 MB
 C. 10-99 MB
 D. 100-250 MB Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 386: How long is Snowpipe data load history retained?
 A. As configured in the CREATE PIPE settings
 B. Until the pipe is dropped
@@ -2336,13 +2336,13 @@ A. Pre-signed URL Most Voted
 B. Scoped URL
 C. Signed URL
 D. File URL
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 389: Where would a Snowflake user find information about query activity from 90 days ago?
 A. account_usage.query_history view Most Voted
 B. account_usage.query_history_archive view
 C. information_schema.query_history view
 D. information_schema.query_history_by_session view
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 390: A marketing co-worker has requested the ability to change a warehouse size on their medium virtual warehouse called MKTG_WH.Which of the following statements will accommodate this request?
 A. ALLOW RESIZE ON WAREHOUSE MKTG_WH TO USER MKTG_LEAD;
 B. GRANT MODIFY ON WAREHOUSE MKTG_WH TO ROLE MARKETING; Most Voted
@@ -2361,7 +2361,7 @@ A. CHECK_JSON
 B. TO_JSON
 C. FLATTEN Most Voted
 D. PARSE_JSON
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 393: Which query profile statistics help determine if efficient pruning is occurring? (Choose two.)
 A. Bytes sent over network
 B. Percentage scanned from cache
@@ -2374,7 +2374,7 @@ A. Time Travel - 1 day, Fail-safe - 1 day
 B. Time Travel - 0 days, Fail-safe - 1 day
 C. Time Travel - 1 day, Failsafe - 0 days Most Voted
 D. Transient tables are retained in neither Fail-safe nor Time Travel.
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 395: Which command is used to unload data from a Snowflake table into a file in a stage?
 A. COPY INTO Most Voted
 B. GET
@@ -2393,7 +2393,7 @@ A. 30 Days Most Voted
 B. 60 Days
 C. 90 Days
 D. 365 Days.
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 398: Which privilege is required for a role to be able to resume a suspended warehouse if auto-resume is not enabled?
 A. USAGE
 B. OPERATE Most Voted
@@ -2412,34 +2412,34 @@ B. Force an immediate password change. Most Voted
 C. Set a default role for the user. Most Voted
 D. Set the number of minutes to unlock to 15 minutes.
 E. Set the user's access to expire within a specified timeframe.
-Respuesta correcta: A,E
+Respuesta correcta: B,C
 Pregunta 401: Network policies can be applied to which of the following Snowflake objects? (Choose two.)
 A. Roles
 B. Databases
 C. Warehouses
 D. Users Most Voted
 E. Accounts Most Voted
-Respuesta correcta: A,D
+Respuesta correcta: D,E
 Pregunta 402: Where is Snowflake metadata stored?
 A. Within the data files
 B. In the virtual warehouse layer
 C. In the cloud services layer Most Voted
 D. In the remote storage layer
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 403: What columns are returned when performing a FLATTEN command on semi-structured data? (Choose two.)
 A. KEY Most Voted
 B. NODE
 C. VALUE Most Voted
 D. LEVEL
 E. ROOT
-Respuesta correcta: C,D
+Respuesta correcta: A,C
 Pregunta 404: Which of the following Snowflake features provide continuous data protection automatically? (Choose two.)
 A. Internal stages
 B. Incremental backups
 C. Time Travel Most Voted
 D. Zero-copy clones
 E. Fail-safe Most Voted
-Respuesta correcta: B,C
+Respuesta correcta: C,E
 Pregunta 405: A developer is granted ownership of a table that has a masking policy. The developer’s role is not able to see the masked data.Will the developer be able to modify the table to read the masked data?
 A. Yes, because a table owner has full control and can unset masking policies.
 B. Yes, because masking policies only apply to cloned tables.
@@ -2451,7 +2451,7 @@ A. Configure the warehouse to a size larger than generally required
 B. Set the minimum and maximum clusters to autoscale
 C. Use the standard warehouse scaling policy Most Voted
 D. Use the economy warehouse scaling policy
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 407: During periods of warehouse contention, which parameter controls the maximum length of time a warehouse will hold a query for processing?
 A. STATEMENT_TIMEOUT_IN_SECONDS
 B. STATEMENT_QUEUED_TIMEOUT_IN_SECONDS Most Voted
@@ -2463,25 +2463,25 @@ A. PURGE
 B. MODIFY
 C. REMOVE Most Voted
 D. DELETE
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 409: In a Snowflake role hierarchy, what is the top-level role?
 A. SYSADMIN
 B. ORGADMIN Most Voted
 C. ACCOUNTADMIN Most Voted
 D. SECURITYADMIN
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 410: By default, which Snowflake role is required to create a share?
 A. ORGADMIN
 B. SECURITYADMIN
 C. SHAREADMIN
 D. ACCOUNTADMIN Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 411: What happens to historical data when the retention period for an object ends?
 A. The data is cloned into a historical object.
 B. The data moves to Fail-safe Most Voted
 C. Time Travel on the historical data is dropped.
 D. The object containing the historical data is dropped.
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 412: A company’s security audit requires generating a report listing all Snowflake logins (e.g., date and user) within the last 90 days.Which of the following statements will return the required information?
 A. SELECT LAST_SUCCESS_LOGIN, LOGIN_NAME FROM ACCOUNT_USAGE.USERS;
 B. SELECT EVENT_TIMESTAMP, USER_NAME FROM table(information_schema.login_history_by_user())
@@ -2494,7 +2494,7 @@ B. Locating queries that consume a high amount of credits
 C. Identifying logical issues with the queries
 D. Identifying inefficient micro-partition pruning Most Voted
 E. Data spilling to a local or remote disk Most Voted
-Respuesta correcta: A,D
+Respuesta correcta: D,E
 Pregunta 414: The Snowflake Search Optimization Services supports improved performance of which kind of query?
 A. Queries against large tables where frequent DML occurs
 B. Queries against tables larger than 1 TB
@@ -2507,13 +2507,13 @@ B. JSON Most Voted
 C. ORC
 D. XML
 E. Delimited (CSV, TSV, etc.) Most Voted
-Respuesta correcta: C,E
+Respuesta correcta: B,E
 Pregunta 416: Which Snowflake tool would be BEST to troubleshoot network connectivity?
 A. SnowCLI
 B. SnowUI
 C. SnowSQL
 D. SnowCD Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 417: Increasing the size of a virtual warehouse from an X-Small to an X-Large is an example of which of the following?
 A. Right sizing
 B. Concurrent sizing
@@ -2532,34 +2532,34 @@ A. Micro-partitioning may introduce data skew
 B. Micro-partitioning requires the definition of a partitioning schema
 C. Micro-partitioning happens when the data is loaded Most Voted
 D. Micro-partitioning can be disabled within a Snowflake account
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 420: Users with the ACCOUNTADMIN role can execute which of the following commands on existing users?
 A. Can SHOW users DESCRIBE a given user, or ALTER or DROP a user Most Voted
 B. Can DEFINE users, DESCRIBE a given user, or ALTER or DELETE a user
 C. Can SHOW users, INDEX a given user, or ALTER or DELETE a user
 D. Can SHOW users, DEFINE a given user or ALTER, DROP, or MODIFY a user
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 421: According to Snowflake best practice recommendations, which system-defined roles should be used to create custom roles? (Choose two.)
 A. ACCOUNTADMIN
 B. SYSADMIN
 C. SECURITYADMIN Most Voted
 D. USERADMIN Most Voted
 E. ORGADMIN
-Respuesta correcta: B,C
+Respuesta correcta: C,D
 Pregunta 422: What services are provided by the cloud services layer in Snowflake? (Choose two.)
 A. Metadata management Most Voted
 B. Object authorization
 C. Authentication Most Voted
 D. Query execution
 E. Result caching
-Respuesta correcta: A,E
+Respuesta correcta: A,C
 Pregunta 423: Which of the following commands are valid options for the VALIDATION_MODE parameter within the Snowflake COPY_INTO command? (Choose two.)
 A. TRUE
 B. RETURN_ERROR_SUM
 C. RETURN_ALL_ERRORS Most Voted
 D. RETURN_ _ROWS Most Voted
 E. RETURN_FIRST__ERRORS
-Respuesta correcta: C,D
+Respuesta correcta: C,D 
 Pregunta 424: Snowflake virtual warehouses are part of which layer of the Snowflake architecture?
 A. Compute layer Most Voted
 B. Storage layer
@@ -2572,7 +2572,7 @@ B. A database may contain one or more schemas. Most Voted
 C. A schema represents a logical grouping of database objects. Most Voted
 D. Each schema is contained within a virtual warehouse.
 E. A table can span more than one schema.
-Respuesta correcta: B,E
+Respuesta correcta: B,C
 Pregunta 426: Which Snowflake objects can be used to reduce data storage costs for short-lived tables? (Choose two.)
 A. Provisional tables
 B. Temporary tables Most Voted
@@ -2592,7 +2592,7 @@ B. Identification of which roles have been used
 C. Tracking of network policy usage
 D. Highlighting of row access policy usage
 E. Identification of who has read data Most Voted
-Respuesta correcta: A,B
+Respuesta correcta: A,E
 Pregunta 429: Which of the following view types are available in Snowflake? (Choose two.)
 A. Layered view
 B. Secure view
@@ -2649,7 +2649,7 @@ A. Files can be loaded directly into a table.
 B. Any delimiter is supported: the default is a semicolon.
 C. Electronic Data Interchange (EDI) is one of the supported semi-structured formats.
 D. For delimited files, the default character set is UTF-8. Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 438: How does a Snowflake user execute an anonymous block of code?
 A. The user must run the CALL command to execute the block.
 B. The statements that define the block must also execute the block. Most Voted
@@ -2661,7 +2661,7 @@ A. GET Most Voted
 B. LIST
 C. PUT
 D. REMOVE
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 440: A Snowflake user has a query that is running for a long time. When the user opens the query profiler, it indicates that a lot of data is spilling to disk.What is causing this to happen?
 A. The result cache is almost full and is unable to hold the results.
 B. The cloud storage staging area is not sufficient to hold the data results.
@@ -2685,7 +2685,7 @@ A. Partitions scanned is greater than partitions total.
 B. Partitions scanned is less than partitions total. Most Voted
 C. Partitions scanned is equal to the partitions total.
 D. Partitions scanned is greater than or equal to the partitions total.
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 444: Which clustering indicator will show if a large table in Snowflake will benefit from explicitly defining a clustering key?
 A. Percentage
 B. Depth Most Voted
@@ -2740,13 +2740,13 @@ B. Deploy a single reader account to be shared by all of the non-Snowflake suppl
 C. Create an ETL pipeline that uses select and inserts statements from the source to the target supplier accounts.
 D. Use a data share for suppliers in the same cloud region and a replicated proxy share for other cloud deployments. Most Voted
 E. Extract the shared transactional data to an external stage and use cloud storage utilities to reload the suppliers' regions.
-Respuesta correcta: B,E
+Respuesta correcta: A,D
 Pregunta 453: Which statement about data sharing is true?
 A. Accounts can share with other accounts regardless of their Snowflake edition, without requiring help from Snowflake Support.
 B. Data sharing can cross regions, but not cloud providers.
 C. The Data Consumer can only see objects in the Data Provider’s source database that have been explicitly added to the share. Most Voted
 D. A Data Provider can only share with other Snowflake customers.
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 454: Which command is used to load files into an internal stage within Snowflake?
 A. PUT
 B. COPY INTO
@@ -2758,7 +2758,7 @@ A. User
 B. Role Most Voted
 C. Attribute
 D. Schema
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 456: What is the default value in the Snowflake Web Interface (UI) for auto suspending a Virtual Warehouse?
 A. 1 minute
 B. 5 minutes
@@ -2789,13 +2789,13 @@ A. 30 Days Most Voted
 B. 60 Days
 C. 90 Days
 D. 365 Days
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 461: As a best practice, all custom roles should be granted to which system-defined role?
 A. ACCOUNTADMIN
 B. ORGADMIN
 C. SECURITYADMIN
 D. SYSADMIN Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 462: Which Snowflake object can be accessed in the FROM clause of a query, returning a set of rows having one or more columns?
 A. A User-Defined Table Function (UDTF) Most Voted
 B. A Scalar User Defined Function (UDF)
@@ -2814,7 +2814,7 @@ B. Create objects with SYSADMIN. Most Voted
 C. Create objects with SECURITYADMIN to ease granting of privileges later.
 D. Create objects with a custom role and grant this role to SYSADMIN. Most Voted
 E. Use only managed access schemas for objects owned by ACCOUNTADMIN.
-Respuesta correcta: A,E
+Respuesta correcta: B,D
 Pregunta 465: Other than ownership what privileges does a user need to view and modify resource monitors in Snowflake? (Choose two.)
 A. ALTER
 B. MONITOR Most Voted
@@ -2846,14 +2846,14 @@ B. EDI
 C. HTML
 D. ORC Most Voted
 E. XML Most Voted
-Respuesta correcta: B,C
+Respuesta correcta: D,E
 Pregunta 470: Which statements reflect valid commands when using secondary roles? (Choose two.)
 A. USE SECONDARY ROLES RESUME
 B. USE SECONDARY ROLES SUSPEND
 C. USE SECONDARY ROLES ALL Most Voted
 D. USE SECONDARY ROLES ADD
 E. USE SECONDARY ROLES NONE Most Voted
-Respuesta correcta: B,D
+Respuesta correcta: B,E
 Pregunta 471: How long is a query visible in the Query History page in the Snowflake Web Interface (UI)?
 A. 60 minutes
 B. 24 hours
@@ -2865,7 +2865,7 @@ A. Scale up the existing warehouse
 B. Create separate warehouses for each user
 C. Create separate warehouses for each workload Most Voted
 D. Stop loading and querying data at the same time
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 473: What is a feature of a stored procedure in Snowflake?
 A. They can be created as secure and hide the underlying metadata from all users.
 B. They can only access tables from a single database.
@@ -2877,7 +2877,7 @@ A. SNOWFLAKE.ACCOUNT_USAGE.WAREHOUSE_EVENT_HISTORY
 B. SNOWFLAKE.ACCOUNT_USAGE.ACCESS_HISTORY Most Voted
 C. SNOWFLAKE.ACCOUNT_USAGE.COLUMNS
 D. SNOWFLAKE.ACCOUNT_USAGE.OBJECT_DEPENDENCIES
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 475: Why do Snowflake’s virtual warehouses have scaling policies?
 A. To help save extra storage costs
 B. To help increase the performance of serverless computing features
@@ -2895,8 +2895,8 @@ A. Snowflake's new user interface where users can visualize data into charts and
 B. Snowflake's proprietary extension of the ANSI SQL standard, including built-in keywords and system functions.
 C. Snowflake's command line client built on the Python connector which is used to connect to Snowflake and execute SQL. Most Voted
 D. Snowflake's library that provides a programming interface for processing data on Snowflake without moving it to the system where the application code runs.
-Respuesta correcta: B
-Pregunta 478: The following SQL statements have been executed:What will the output be of the last select statement?
+Respuesta correcta: C
+Pregunta 478: The following SQL statements have been executed:What will the output be of the last select statement? SEQ.NEXTVAL();
 A. 3
 B. 4
 C. 7 Most Voted
@@ -2914,7 +2914,7 @@ B. Delete provider profiles
 C. Modify listings properties Most Voted
 D. Modify incoming listing access requests
 E. Submit listings for approval/publishing Most Voted
-Respuesta correcta: C,D
+Respuesta correcta: C,E
 Pregunta 481: Which parameter prevents streams on tables from becoming stale?
 A. MAX_DATA_EXTENSION_TIME_IN_DAYS Most Voted
 B. MIN_DATA_RETENSION_TIME_IN_DAYS
@@ -2952,7 +2952,7 @@ B. DESCRIBE TAG
 C. DROP TAG Most Voted
 D. GRANT ... TO TAG
 E. GRANT TAG
-Respuesta correcta: B,D
+Respuesta correcta: A,C
 Pregunta 487: What Snowflake objects can be added to a share? (Choose two.)
 A. Views
 B. Tables Most Voted
@@ -2971,14 +2971,14 @@ A. Network policies
 B. Credit computation
 C. Data storage
 D. Attribute-based access control Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 490: What actions does the use of the PUT command do automatically? (Choose two.)
 A. It creates a file format object.
 B. It uses the last stage created.
 C. It compresses all files using GZIP. Most Voted
 D. It encrypts the file data in transit. Most Voted
 E. It creates an empty target table.
-Respuesta correcta: B,C
+Respuesta correcta: C,D
 Pregunta 491: Which command should a Snowflake user execute to load data into a table?
 A. copy into mytable purge_mode = TRUE;
 B. copy into mytable from @my_int_stage;
@@ -2990,7 +2990,7 @@ A. BUILD_STAGE_FILE_URL
 B. BUILD_SCOPED_FILE_URL
 C. GET_PRESIGNED_URL
 D. GET_STAGE_LOCATION Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 493: What is the MAXIMUM number of clusters that can be provisioned with a multi-cluster virtual warehouse?
 A. 1
 B. 5
@@ -3002,13 +3002,13 @@ A. Directory Most Voted
 B. Transient
 C. Temporary
 D. Permanent
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 495: When unloading data, which file format preserves the data values for floating-point number columns?
 A. Avro
 B. CSV
 C. JSON
 D. Parquet Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 496: Which virtual warehouse privilege is required to view a load-monitoring chart?
 A. MONTTOR
 B. MODIFY
@@ -3026,32 +3026,32 @@ A. Zero
 B. One Most Voted
 C. Eight
 D. Unlimited
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 499: What are the main differences between the account usage views and the information schema views? (Choose two.)
 A. No active warehouse is needed to query account usage views but one is needed to query information schema views.
 B. Account usage views do not contain data about tables but information schema views do.
 C. Account usage views contain dropped objects but information schema views do not. Most Voted
 D. Data retention for account usage views is 1 year but is 7 days to 6 months for information schema views, depending on the view. Most Voted
 E. Information schema views are read-only but account usage views are not.
-Respuesta correcta: C,E
+Respuesta correcta: C,D
 Pregunta 500: Which file function provides a URL with access to a file on a stage without the need for authentication and authorization?
 A. GET_RELATIVE_PATH
 B. GET_PRESIGNED_URL Most Voted
 C. BUILD_STAGE_FILE_URL
 D. BUILD_SCOPED_FILE_URL
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 501: Which view can be used to determine if a table has frequent row updates or deletes?
 A. TABLES
 B. TABLE_STORAGE_METRICS Most Voted
 C. STORAGE_DAILY_HISTORY
 D. STORAGE_USAGE
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 502: How does the Snowflake search optimization service improve query performance?
 A. It improves the performance of range searches.
 B. It defines different clustering keys on the same source table.
 C. It improves the performance of all queries running against a given table.
 D. It improves the performance of equality searches. Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 503: How is unstructured data retrieved from data storage?
 A. SQL functions like the GET command can be used to copy the unstructured data to a location on the client.
 B. SQL functions can be used to create different types of URLs pointing to the unstructured data. These URLs can be used to download the data to a client. Most Voted
@@ -3070,7 +3070,7 @@ B. Exploding joins Most Voted
 C. Unions
 D. Inefficient pruning Most Voted
 E. Data masking
-Respuesta correcta: A,E
+Respuesta correcta: B,D
 Pregunta 506: What is used to extract the content of PDF files stored in Snowflake stages?
 A. FLATTEN function
 B. Window function
@@ -3106,7 +3106,7 @@ A. File URL Most Voted
 B. Pre-signed URL
 C. Saved URL
 D. Scoped URL
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 512: Which operation will produce an error in Snowflake?
 A. Inserting duplicate values into a PRIMARY KEY column
 B. Inserting a NULL into a column with a NOT NULL constraint Most Voted
@@ -3131,7 +3131,7 @@ B. Automatic clustering Most Voted
 C. Row access policies
 D. Multi-cluster virtual warehouses
 E. Secure views
-Respuesta correcta: A,C
+Respuesta correcta: A,B
 Pregunta 516: Which command would return an empty sample?
 A. select * from testtable sample ();
 B. select * from testtable sample (0); Most Voted
@@ -3168,31 +3168,31 @@ A. ACCESS_HYSTORY
 B. LOAD_HYSTORY
 C. QUERY_HISTORY
 D. REST_EVENT_HISTORY Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 522: A Snowflake user is writing a User-Defined Function (UDF) with some unqualified object names.How will those object names be resolved during execution?
 A. Snowflake will resolve them according to the SEARCH_PATH parameter.
 B. Snowflake will only check the schema the UDF belongs to. Most Voted
 C. Snowflake will first check the current schema, and then the schema the previous query used.
 D. Snowflake will first check the current schema, and then the PUBLIC schema of the current database.
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 523: Why should a user select the economy scaling policy for a multi-cluster warehouse?
 A. To prevent/minimize query queuing
 B. To increase performance of the clusters
 C. To reduce queuing concurrent user queries
 D. To conserve credits by keeping running clusters fully loaded Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 524: What MINIMUM privilege is required on the external stage for any role in the GET REST API to access unstructured data files using a file URL?
 A. READ
 B. OWNERSHIP
 C. USAGE Most Voted
 D. WRITE
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 525: Which view in SNOWFLAKE.ACCOUNT_USAGE shows from which IP address a user connected to Snowflake?
 A. ACCESS_HYSTORY
 B. LOGIN_HYSTORY Most Voted
 C. SESSIONS
 D. QUERY_HISTORY
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 526: Snowflake Partner Connect is limited to users with a verified email address and which role?
 A. SYSADMIN
 B. SECURITYADMIN
@@ -3210,7 +3210,7 @@ A. Stored procedures can execute database operations while UDFs cannot. Most Vot
 B. Returning a value is required in a stored procedure while returning values in a UDF is optional.
 C. Values returned by a stored procedure can be used directly in a SQL statement while the values returned by a UDF cannot.
 D. Multiple stored procedures can be called as part of a single executable statement while a single SQL statement can only call one UDF at a time.
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 529: Which URL type does Snowflake recommend to use when providing unstructured data to other accounts through a share?
 A. File
 B. Pre-signed
@@ -3228,7 +3228,7 @@ A. It can be used by a client that does not have a Snowflake account Most Voted
 B. It is read-only and prevents the shared data from being updated by the provider.
 C. It can be connected to a Snowflake account in a different region.
 D. It provides limited access to the data share and is therefore cheaper for the data provider.
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 532: What command is used to export or unload data from Snowflake?
 A. PUT @mystage
 B. GET @mystage
@@ -3271,7 +3271,7 @@ A. It assigns each unloaded data file a unique name. Most Voted
 B. It uses the PUT command to download the data by default.
 C. It uses COPY INTO for bulk unloading where the default option is SINGLE = TRUE.
 D. It uses COPY INTO to copy the data from a table into one or more files in an external stage only.
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 539: What information is included in the display in the Query Profile? (Choose two.)
 A. Index hints used in query
 B. Credit usage details
@@ -3290,7 +3290,7 @@ A. 1 hour
 B. 2 hours
 C. 4 hours Most Voted
 D. 8 hours
-Respuesta correcta: A
+Respuesta correcta: C
 Pregunta 542: When unloading data, which file formats are supported by the COPY INTO  command? (Choose two.)
 A. Avro
 B. JSON
@@ -3327,7 +3327,7 @@ A. The data is based on sampling every row. Most Voted
 B. The data is based on sampling 10% of the source data.
 C. The data is based on sampling blocks of the source data.
 D. The data is based on sampling 1000 rows of the source data.
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 548: What are characteristics of Snowflake network policies? (Choose two.)
 A. They can be set for any Snowflake Edition
 B. They can be applied to roles.
@@ -3359,13 +3359,13 @@ B. DOUBLE Most Voted
 C. NUMBER
 D. NUMERIC
 E. REAL Most Voted
-Respuesta correcta: A,D
+Respuesta correcta: B,E
 Pregunta 553: What ensures that a user with the role SECURITYADMIN can activate a network policy for an individual user?
 A. A role that has been granted the EXECUTE TASK privilege
 B. A role that has been granted the global ATTACH POLICY privilege
 C. Ownership privilege on only the role that created the network policy
 D. Ownership privilege on both the user and the network policy Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 554: Which function can be combined with the copy command to unload a relational table into a JSON file?
 A. FLATTEN
 B. LISTAGG
@@ -3377,7 +3377,7 @@ A. Permanent
 B. Transient Most Voted
 C. Temporary
 D. External
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 556: While loading data from a JSON file, what enables the removal of the outer array structure from the file and loads the records into separate table rows?
 A. SKIP_BYTE_ORDER_MARK
 B. STRIP_NULL_VALUE
@@ -3390,7 +3390,7 @@ B. BUILD_STAGE_FILE_URL
 C. GET_ABSOLUTE_PATH
 D. GET_PRESIGNED_URL Most Voted
 E. GET_RELATIVE_PATH
-Respuesta correcta: B,D
+Respuesta correcta: A,D
 Pregunta 558: Which function will return a row for each for each object in a VARIANT, OBJECT, or ARRAY column?
 A. CAST
 B. FLATTEN
@@ -3408,7 +3408,8 @@ A. 10
 B. 50
 C. 64
 D. 256
-Respuesta correcta: B
+E. 300 
+Respuesta correcta: E
 Pregunta 561: Which Snowflake table type is only visible to the user who creates it, can have the same name as permanent tables in the same schema, and is dropped at the end of the session?
 A. Temporary
 B. Local
@@ -3426,7 +3427,7 @@ A. PUT Most Voted
 B. GET
 C. LIST
 D. COPY INTO
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 564: How do managed access schemas help with data governance?
 A. They log all operations and enable fine-grained auditing.
 B. They provide centralized privilege management with the schema owner.
@@ -3438,19 +3439,19 @@ A. 2 hours
 B. 1 week
 C. 2 weeks Most Voted
 D. 1 month
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 566: A Snowflake user wants to unload data from a relational table sized 5 GB using CSV. The extract needs to be as performant as possible.What should the user do?
 A. Use Parquet as the unload file format, using Parquet's default compression feature.
 B. Use a regular expression in the stage specification of the COPY command to restrict parsing time.
 C. Increase the default MAX_FILE_SIZE to 5 GB and set SINGLE = true to produce a single file.
 D. Leave the default MAX_FILE_SIZE to 16 MB to take advantage of parallel operations. Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 567: How is the MANAGE GRANTS privilege applied?
 A. Globally Most Voted
 B. At the database level
 C. At the schema level
 D. At the table level
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 568: What is required for a query execution to be served from the result cache?
 A. The user is the same.
 B. The SQL texts the same.
@@ -3462,7 +3463,7 @@ A. File Most Voted
 B. Pre-signed
 C. Scoped
 D. Virtual-hosted style
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 570: At which point is data encrypted when using a PUT command?
 A. When it reaches the virtual warehouse
 B. When it gets micro-partitioned
@@ -3475,7 +3476,7 @@ B. OWNERSHIP Most Voted
 C. MODIFY
 D. UNDROP
 E. CREATE Most Voted
-Respuesta correcta: B,D
+Respuesta correcta: B,E
 Pregunta 572: For a multi-cluster virtual warehouse, which parameters are used to calculate the number of credits billed? (Choose two.)
 A. Cache size
 B. Warehouse size Most Voted
@@ -3488,7 +3489,7 @@ A. Snowflake ignores the BLOCKED_IP_LIST first.
 B. Snowflake applies the BLOCKED_IP_LIST first. Most Voted
 C. Snowflake applies the ALLOWED_IP_LIST first.
 D. Snowflake ignores the ALLOWED_IP_LIST first.
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 574: What does the orange bar on an operator represent when reviewing the Query Profile?
 A. A measure of progress of the operator's execution.
 B. The fraction of time that this operator consumed within the query step.
@@ -3500,7 +3501,7 @@ A. 16 MB Most Voted
 B. 32 MB
 C. 64 MB
 D. 5 GB
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 576: What is the abbreviated form to get all the files in the stage for the current user?
 A. LIST @~;
 B. LS @~; Most Voted
@@ -3513,14 +3514,14 @@ B. Dynamic Data Masking Most Voted
 C. External Tokenization Most Voted
 D. Key pair authentication
 E. Row access policies
-Respuesta correcta: B,E
+Respuesta correcta: B,C
 Pregunta 578: Which programming languages are supported for Snowflake User-Defined Functions (UDFs)? (Choose two.)
 A. C#
 B. JavaScript Most Voted
 C. PHP
 D. Python Most Voted
 E. TypeScript
-Respuesta correcta: A,D
+Respuesta correcta: B,D
 Pregunta 579: What is the MAXIMUM number of days that Snowflake resets the 24-hour retention period for a query result every time the result is used?
 A. 1 day
 B. 10 days
@@ -3563,19 +3564,19 @@ A. SELECT * FROM @mystage::DIRECTORY
 B. SELECT * FROM DIRECTORY (@mystage) Most Voted
 C. SELECT * FROM TO_TABLE (DIRECTORY @mystage)
 D. SELECT * FROM TABLE (@mystage DIRECTORY)
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 586: Why would a Snowflake user create a secure view instead of a standard view?
 A. The secure view is only available to end users with the corresponding SECURE_ACCESS property.
 B. End users are unable to see the view definition, and internal optimizations differ with a secure view. Most Voted
 C. With a secure view, the underlying data is replicated to a separate storage layer with enhanced encryption.
 D. Secure views support additional functionality that is not supported for standard views, such as column masking and row level access policies.
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 587: Which command can be added to the COPY command to make it load all files, whether or not the load status of the files is known?
 A. FORCE = TRUE Most Voted
 B. FORCE = FALSE
 C. LOAD_UNCERTAIN_FILES = TRUE
 D. LOAD_UNCERTAIN_FILES = FALSE
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 588: How can a Snowflake user improve long-running query performance?
 A. Reduce the virtual warehouse size.
 B. Cluster the underlying table being queried.
@@ -3587,7 +3588,7 @@ A. Access history Most Voted
 B. Data classification
 C. Dynamic Data Masking
 D. Object tagging
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 590: Which SQL commands should be used to write a recursive query if the number of levels is unknown? (Choose two.)
 A. CONNECT BY Most Voted
 B. LISTAGG
@@ -3606,7 +3607,7 @@ A. CREATE DATA EXCHANGE LISTING
 B. CREATE SHARE
 C. IMPORT SHARE Most Voted
 D. IMPORTED PRIVILEGES Most Voted
-Respuesta correcta: A
+Respuesta correcta: C
 Pregunta 593: Which Snowflake database object can be shared with other accounts?
 A. Tasks
 B. Pipes
@@ -3637,25 +3638,25 @@ A. Add additional warehouses and configure them as a cluster.
 B. Set the auto-scale to 100.
 C. Use a multi-cluster warehouse. Most Voted
 D. Use a larger warehouse.
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 598: How is table data compressed in Snowflake?
 A. Each column is compressed as it is stored in a micro-partition. Most Voted
 B. Each micro-partition is compressed as it is written into cloud storage using GZIP.
 C. The micro-partitions are stored in compressed cloud storage and the cloud storage handles compression.
 D. The text data in a micro-partition is compressed with GZIP but other types are not compressed.
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 599: What will be the output of the below query against the table name gold_data?select * from gold_data tablesample (100);
 A. It will return an empty sample.
 B. It will return a random 100 rows.
 C. It will return an entire table. Most Voted
 D. It will produce an error message.
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 600: A Snowflake query took 40 minutes to run. The results indicate that ‘Bytes spilled to local storage’ was a large number.What is the issue and how can it be resolved?
 A. The warehouse is too large. Decrease the size of the warehouse to reduce the spillage.
 B. The warehouse is too small. Increase the size of the warehouse to reduce the spillage. Most Voted
 C. The Snowflake console has timed-out. Contact Snowflake Support.
 D. The warehouse consists of a single cluster. Use a multi-cluster warehouse to reduce the spillage.
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 601: What is the MOST efficient way to load streaming data into Snowflake?
 A. Use the COPY command.
 B. Use Snowpipe. Most Voted
@@ -3667,13 +3668,13 @@ A. The default value for the SINGLE option is set to TRUE.
 B. By default, COPY INTO statements do not separate table data into a set of output files.
 C. The OBJECT_CONSTRUCT function can be combined with the COPY command to convert the rows in a relational table to a single VARIANT column. Most Voted
 D. If the COMPRESSION option is set to TRUE, a file's name can be specified with the appropriate file extension so that the output file can be compressed.
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 603: What command is used to download data from a Snowflake stage?
 A. PUT
 B. INSERT
 C. GET Most Voted
 D. COPY
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 604: By default, which role has privileges to create tables and views in an account?
 A. PUBLIC
 B. SECURITYADMIN
@@ -3691,13 +3692,13 @@ A. 0 days Most Voted
 B. 1 day
 C. 7 days
 D. 14 days
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 607: How does a Snowflake user enable Multi-Factor Authentication (MFA)?
 A. The user must enroll themselves through the web interface. Most Voted
 B. The user must submit their encrypted private key to Snowflake.
 C. The user must sign up with Duo Mobile for approval to use the service.
 D. The user must configure Snowflake to use Single Sign-On (SSO).
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 608: What allows a user to limit the number of credits consumed within a Snowflake account?
 A. Tracking account usage
 B. Creating resource monitors Most Voted
@@ -3733,7 +3734,7 @@ A. Bytes written
 B. Total invocations Most Voted
 C. Partitions scanned
 D. Bytes sent over the network
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 614: If there is queueing in the virtual warehouse load monitoring chart, what should a Snowflake user do?
 A. Decrease the warehouse size.
 B. Decrease the MIN_CLUSTER_COUNT parameter.
@@ -3745,7 +3746,7 @@ A. ALTER
 B. CREATE ... CLONE 
 C. COPY INTO 
 D. CREATE REPLICATION GROUP 
-Respuesta correcta: D 
+Respuesta correcta: B
 Pregunta 616: How long is the load history stored in the metadata of the pipe in Snowpipe? 
 A. 2 days 
 B. 7 days 
@@ -3756,26 +3757,28 @@ Pregunta 617: What are the key characteristics of ACСOUNT_USAGE views? (Choose 
 A. There is no data latency. 
 B. The data latency can vary from 45 minutes to 3 hours. 
 C. The historical data is not retained. 
-D. The historical data can be retained from 7 days to 6 months. E. Records for dropped objects are included in each view. Reveal Solution Hide Solution Discussion 14 
+D. The historical data can be retained from 7 days to 6 months. 
+E. Records for dropped objects are included in each view.
 Resouesta correcta: D,E 
 Pregunta 618: How does a scoped URL expire? 
 A. When the data cache clears. 
 B. When the persisted query result period ends. 
 C. The encoded URL access is permanent. 
 D. The length of time is specified in the expiration_time argument. 
-Respuesta correcta: D 
+Respuesta correcta: B 
 Pregunta 619: What are the available Snowflake scaling modes for configuring multi-cluster virtual warehouses? (Choose two.) 
 A. Auto-Scale 
 B. Economy 
 C. Maximized 
-D. Scale-Out E. 
-Respuesta correcta: A,C 🗳️ 
+D. Scale-Out 
+E. Standard 
+Respuesta correcta: A,C 
 Pregunta 620: Which loop type iterates until a condition is true? 
 A. FOR 
 B. LOOP 
 C. REPEAT 
 D. WHILE 
-Respuesta correcta: D 
+Respuesta correcta: C
 Pregunta 621: Which property needs to be added to the ALTER WAREHOUSE command to verify the additional compute resources for a virtual warehouse have been fully provisioned?
 A. QUERY_ACCELERATION_MAX_SCALE_FACTOR
 B. RESOURCE_MONITOR
@@ -3812,7 +3815,7 @@ A. Auto-scale mode
 B. Maximized mode
 C. Economy scaling policy
 D. Standard scaling policy Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 627: When floating-point number columns are unloaded to CSV or JSON files, Snowflake truncates the values to approximately what?
 A. (12,2)
 B. (10,4)
@@ -3824,13 +3827,13 @@ A. IMPORT SHARE
 B. OWNERSHIP
 C. REFERENCES
 D. USAGE
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 629: What happens when a user exits Snowsight during a session that a query is running?
 A. Snowflake executes the query during the same session immediately.
 B. Snowflake cancels any queries submitted during this session that are still running. Most Voted
 C. Snowflake will cancel any queries submitted during this session after 24 hours.
 D. Snowflake will continue to execute and complete upon the next login. Most Voted
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 630: Which native data types are used for storing semi-structured data in Snowflake? (Choose two.)
 A. NUMBER
 B. OBJECT
@@ -3844,7 +3847,7 @@ B. FILE_NAME
 C. LAST_MODIFIED Most Voted
 D. RELATIVE_PATH Most Voted
 E. STAGE_NAME
-Respuesta correcta: B,C
+Respuesta correcta: C,D
 Pregunta 632: What is used to diagnose and troubleshoot network connections to Snowflake?
 A. SnowCD
 B. Snowpark
@@ -3882,7 +3885,7 @@ B. Cluster a table. Most Voted
 C. Enable the search optimization service. Most Voted
 D. Enable Time Travel.
 E. Index a table.
-Respuesta correcta: A,B
+Respuesta correcta: B,C
 Pregunta 638: What is the MINIMUM role required to set the value for the parameter ENABLE_ACCOUNT_DATABASE_REPLICATION?
 A. ACCOUNTADMIN
 B. SECURITYADMIN
@@ -3906,7 +3909,7 @@ A. Resource monitor
 B. Account_usage.query_history Most Voted
 C. Information_schema.warehouse_load_history Most Voted
 D. Information_schema.warehouse_metering_history
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 642: Which Snowflake object can be created to be temporary?
 A. Role
 B. Stage
@@ -3918,7 +3921,7 @@ A. Append-only
 B. External
 C. Insert-only Most Voted
 D. Standard
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 644: What is the recommended approach for unloading data to a cloud storage location from Snowflake?
 A. Use a third-party tool to unload the data to cloud storage.
 B. Unload the data directly to the cloud storage location. Most Voted
@@ -3942,7 +3945,7 @@ A. SELECT COUNT(*) FROM TBL_EMPLOYEE;
 B. ALTER TABLE TBL_EMPLOYEE ADD COLUMN EMP_REGION VARCHAR(20);
 C. INSERT INTO TBL_EMPLOYEE(EMP_ID, EMP_NAME, EMP_SALARY, DEPT) VALUES(1, 'Adam', 20000, 'Finance’); Most Voted
 D. CREATE OR REPLACE TABLE TBL_EMPLOYEE ( EMP_ID NUMBER, EMP_NAME VARCHAR(30), EMP_SALARY NUMBER, DEPT VARCHAR(20) );
-Respuesta correcta: A
+Respuesta correcta: C
 Pregunta 648: Which REST API can be used with unstructured data?
 A. insertFiles
 B. insertReport
@@ -3954,7 +3957,7 @@ A. list @bronzestage;
 B. select * from directory(@bronzestage); Most Voted
 C. select metadata$filename from @bronzestage;
 D. select * from table(information_schema.stage_directory_file_registration_history( stage_name=>'bronzestage'));
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 650: Which feature is integrated to support Multi-Factor Authentication (MFA) at Snowflake?
 A. Authy
 B. Duo Security
@@ -3978,7 +3981,7 @@ A. Swift
 B. JavaScript
 C. Python Most Voted
 D. SQL
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 654: A user needs to ingest 1 GB of data that is available in an external stage using a COPY INTO command.How can this be done with MAXIMUM performance and the LEAST cost?
 A. Ingest the data in a compressed format as a single file.
 B. Ingest the data in an uncompressed format as a single file.
@@ -4014,13 +4017,13 @@ A. history
 B. config
 C. snowsql.cnf
 D. snowsql.pubkey
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 660: How do secure views compare to non-secure views in Snowflake?
 A. Secure views execute slowly compared to non-secure views. Most Voted
 B. Non-secure views are preferred over secure views when sharing data.
 C. Secure views are similar to materialized views in that they are the most performant.
 D. There are no performance differences between secure and non-secure views.
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 661: Which type of join will list all rows in the specified table, even if those rows have no match in the other table?
 A. Cross join
 B. Inner join
@@ -4032,19 +4035,19 @@ A. 1 GB
 B. 5 GB Most Voted
 C. 10 GB
 D. 16 GB
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 663: How long does Snowflake retain information in the ACCESS_HISTORY view?
 A. 7 days
 B. 14 days
 C. 28 days
 D. 365 days Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 664: Which encryption type will enable client-side encryption for a directory table?
 A. AES
 B. AWS_CSE
 C. SNOWFLAKE_SSE
 D. SNOWFLAKE_FULL Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 665: If file format options are specified in multiple locations, the load operation selects which option FIRST to apply in order of precedence?
 A. Table definition
 B. Stage definition
@@ -4087,20 +4090,20 @@ B. Node.js driver
 C. ODBC driver Most Voted
 D. Python connector Most Voted
 E. Spark connector
-Respuesta correcta: A,B
+Respuesta correcta: C,D
 Pregunta 672: What is the Snowflake recommended Parquet file size when querying from external tables to optimize the number of parallel scanning operations?
 A. 1-16 MB
 B. 16-128 MB
 C. 100-250 MB
 D. 256-512 MB Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 673: Which data types can be used in a Snowflake table that holds semi-structured data? (Choose two.)
 A. ARRAY Most Voted
 B. BINARY
 C. TEXT
 D. VARIANT Most Voted
 E. VARCHAR
-Respuesta correcta: A,B
+Respuesta correcta: A,D
 Pregunta 674: Which constraint is enforced in Snowflake?
 A. FOREIGN KEY
 B. NOT NULL
@@ -4113,7 +4116,7 @@ B. Sharing settings
 C. Copy History Most Voted
 D. Query History Most Voted
 E. Automatic Clustering History
-Respuesta correcta: B,C
+Respuesta correcta: C,D
 Pregunta 676: When should a user consider disabling auto-suspend for a virtual warehouse? (Choose two.)
 A. When users will be using compute at different times throughout a 24/7 period
 B. When managing a steady workload
@@ -4140,7 +4143,7 @@ B. Data storage
 C. Data visualization
 D. Query computation
 E. Metadata management Most Voted
-Respuesta correcta: B,C
+Respuesta correcta: A,E
 Pregunta 680: At which point is data encrypted when using a PUT command?
 A. When it reaches the virtual warehouse
 B. When it gets micro-partitioned
@@ -4167,20 +4170,20 @@ B. Bytes spilled to local storage. Most Voted
 C. Bytes spilled to remote cache.
 D. Bytes spilled to remote storage. Most Voted
 E. Bytes spilled to remote metastore.
-Respuesta correcta: B,C
+Respuesta correcta: B,D
 Pregunta 684: How do Snowflake data providers share data that resides in different databases?
 A. External tables
 B. Secure views Most Voted
 C. Materialized views
 D. User-Defined Functions (UDFs)
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 685: What operations can be performed while loading a simple CSV file into a Snowflake table using the COPY INTO command? (Choose two.)
 A. Performing aggregate calculations
 B. Reordering the columns Most Voted
 C. Grouping by operations
 D. Converting the datatypes Most Voted
 E. Selecting the first few rows
-Respuesta correcta: C,D
+Respuesta correcta: B,D
 Pregunta 686: Which commands support a multiple-statement request to access and update Snowflake data? (Choose two.)
 A. CALL
 B. COMMIT
@@ -4194,34 +4197,34 @@ B. To increase query performance
 C. To limit access to sensitive data Most Voted
 D. To optimize query concurrency and queuing
 E. To hide view definition and details from unauthorized users Most Voted
-Respuesta correcta: D,E
+Respuesta correcta: C,E
 Pregunta 688: At what levels can a resource monitor be configured? (Choose two.)
 A. Account Most Voted
 B. Database
 C. Organization
 D. Schema
 E. Virtual warehouse Most Voted
-Respuesta correcta: B,C
+Respuesta correcta: A,C
 Pregunta 689: What activities can be monitored by a user directly from Snowsight's Activity tab without using the Account_Usage views? (Choose two.)
 A. Login history
 B. Query history Most Voted
 C. Copy history Most Voted
 D. Event usage history
 E. Virtual warehouse metering history
-Respuesta correcta: C,D
+Respuesta correcta: B,C
 Pregunta 690: What can a Snowflake user do with the information included in the details section of a Query Profile?
 A. Determine the total duration of the query. Most Voted
 B. Determine the role of the user who ran the query.
 C. Determine the source system that the queried table is from.
 D. Determine if the query was on structured or semi-structured data.
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 691: How can a Snowflake user access a JSON object, given the following table? (Choose two.)
 A. src:salesperson.name
 B. src:salesPerson.name Most Voted
 C. src:salesPerson.Name
 D. SRC:salesPerson.name Most Voted
 E. SRC:salesPerson.Name
-Respuesta correcta: B,C
+Respuesta correcta: B,D
 Pregunta 692: Which term is used to describe information about disk usage for operations where intermediate results cannot be accommodated in a Snowflake virtual warehouse memory?
 A. Pruning
 B. Spilling
@@ -4239,7 +4242,7 @@ A. A single compressed JSON file with a single VARIANT column Most Voted
 B. Multiple compressed JSON files with a single VARIANT column
 C. A single uncompressed JSON file with multiple VARIANT columns
 D. Multiple uncompressed JSON files with multiple VARIANT columns
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 695: A JSON file that contains lots of dates and arrays needs to be processed in Snowflake. The user wants to ensure optimal performance while querying the data.How can this be achieved?
 A. Flatten the data and store it in structured data types in a flattened table. Query the table. Most Voted
 B. Store the data in a table with a VARIANT data type. Query the table.
@@ -4257,7 +4260,7 @@ A. Object tagging
 B. Data classification Most Voted
 C. Row access policy
 D. Column-level security
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 698: What can a Snowflake user do in the Admin area of Snow right?
 A. Analyze query performance.
 B. Write queries and execute them.
@@ -4269,7 +4272,7 @@ A. BUILD_STAGE_FILE_URL Most Voted
 B. BUILD_SCOPED_FILE_URL
 C. GET_PRESIGNED_URL
 D. GET_STAGE_LOCATION
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 700: What is the purpose of using the OBJECT_CONSTRUCT function with the COPY INTO command?
 A. Reorder the rows in a relational table and then unload the rows into a file.
 B. Convert the rows in a relational table to a single VARIANT column and then unload the rows into a file.
@@ -4288,21 +4291,21 @@ B. JSON Most Voted
 C. ORC
 D. Parquet
 E. SQL Most Voted
-Respuesta correcta: A,B
+Respuesta correcta: B,E
 Pregunta 703: What are characteristics of transient tables in Snowflake? (Choose two.)
 A. Transient tables have a Fail-safe period of 7 days.
 B. Transient tables can be cloned to permanent tables.
 C. Transient tables persist until they are explicitly dropped. Most Voted
 D. Transient tables can be altered to make them permanent tables.
 E. Transient tables have Time Travel retention periods of 0 or 1 day. Most Voted
-Respuesta correcta: B,C
+Respuesta correcta: C,E
 Pregunta 704: The INFORMATION_SCHEMA included in each database contains which objects? (Choose two.)
 A. Views for all the objects contained in the database Most Voted
 B. Views for all the objects contained in the Snowflake account
 C. Views for historical and usage data across the Snowflake account
 D. Table functions for historical and usage data across the Snowflake account Most Voted
 E. Table functions for account-level objects, such as roles, virtual warehouses, and databases
-Respuesta correcta: A,E
+Respuesta correcta: A,D
 Pregunta 705: The use of which technique or tool will improve Snowflake query performance on very large tables?
 A. Indexing
 B. Clustering keys
@@ -4320,13 +4323,13 @@ A. Only while in the ACCOUNTADMIN role
 B. Only while in the SECURITYADMIN role
 C. Only the role with the OWNERSHIP privilege on the network policy
 D. Only Snowflake Support can set the value for this object property Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 708: What authentication method does the Kafka connector use within Snowflake?
 A. Key pair authentication Most Voted
 B. Multi-Factor Authentication (MFA)
 C. OAuth
 D. Username and password
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 709: What is the purpose of the Snowflake SPLIT_TO_TABLE function?
 A. To count the number of characters in a string
 B. To split a string into an array of sub-strings
@@ -4375,7 +4378,7 @@ B. Database master keys
 C. File keys Most Voted
 D. Secure view keys
 E. Schema master keys
-Respuesta correcta: A,B
+Respuesta correcta: A,C
 Pregunta 717: What can the Snowflake SCIM API be used to manage? (Choose two.)
 A. Integrations
 B. Network policies
@@ -4400,7 +4403,7 @@ A. Use the SHOW STAGES command.
 B. Use the DESCRIBE STAGE command.
 C. Use the GET_ABSOLUTE_PATH function.
 D. Use the GET_STAGE_LOCATION function. Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 721: A Snowflake user needs to share unstructured data from an internal stage to a reporting tool that does not have Snowflake access.Which file function should be used?
 A. BUILD_SCOPED_FILE_URL
 B. BUILD_STAGE_FILE_URL
@@ -4424,7 +4427,7 @@ A. 2 minutes
 B. 5 minutes Most Voted
 C. 10 minutes
 D. 15 minutes
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 725: Which command is used to unload data from a Snowflake table to an external stage?
 A. COPY INTO
 B. COPY INTO followed by GET
@@ -4436,7 +4439,7 @@ A. Materialized views do not allow joins. Most Voted
 B. Clones of materialized views can be created directly by the user.
 C. Multiple tables can be joined in the underlying query of a materialized view.
 D. Aggregate functions can be used as window functions in materialized views.
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 727: Which Snowflake URL type allows users or applications to download or access files directly from Snowflake stage without authentication?
 A. Directory
 B. File
@@ -4451,15 +4454,16 @@ D. PUT 'file://C:/folder with space/*' @%TBL_EMPLOYEE;
 Respuesta correcta: B
 Pregunta 729: How can the COPY command be used to unload data from a table to an internal stage?
 A. COPY INTO
-B. COPY INTO C. COPY INTO with single-true D. 
-COPY INTO S3://
+B. COPY INTO 
+C. COPY INTO with single-true 
+D. COPY INTO S3://
 Respuesta correcta: A 
 Pregunta 730: How does a Snowflake stored procedure compare to a User-Defined Function (UDF)? 
 A. A single executable statement can call only two stored procedures. In contrast, a single SQL statement can call multiple UDFs. 
 B. A single executable statement can call only one stored procedure. In contrast, a single SQL statement can call multiple UDFs. 
 C. A single executable statement can call multiple stored procedures. In contrast, multiple SQL statements can call the same UDFs. 
 D. Multiple executable statements can call more than one stored procedure. In contrast, a single SQL statement can call multiple UDFs.
-Respuesta correcta: D  
+Respuesta correcta: B
 Pregunta 731: Which command should be used to unload all the rows from a table into one or more files in a named stage?
 A. COPY INTO Most Voted
 B. GET
@@ -4478,14 +4482,14 @@ B. IMPORT SHARE Most Voted
 C. OWNERSHIP
 D. REFERENCE_USAGE
 E. USAGE
-Respuesta correcta: B,E
+Respuesta correcta: A,B
 Pregunta 734: What are benefits of using Snowpark with Snowflake? (Choose two.)
 A. Snowpark uses a Spark engine to generate optimized SQL query plans.
 B. Snowpark automatically sets up Spark within Snowflake virtual warehouses.
 C. Snowpark does not require that a separate cluster be running outside of Snowflake. Most Voted
 D. Snowpark allows users to run existing Spark code on virtual warehouses without the need to reconfigure the code.
 E. Snowpark executes as much work as possible in the source databases for all operations including User-Defined Functions (UDFs). Most Voted
-Respuesta correcta: C,D
+Respuesta correcta: C,E
 Pregunta 735: What are Snowflake best practices when assigning the ACCOUNTADMIN role to users? (Choose two.)
 A. The ACCOUNTADMIN role should be assigned to at least two users.
 B. The ACCOUNTADMIN role should be used to create Snowflake objects.
@@ -4517,7 +4521,7 @@ A. The COPY INTO options should be set to PURGE = FALSE
 B. The COPY INTO options should be set to FORCE = TRUE Most Voted
 C. The COPY INTO options should be set to RETURN_FAILED_ONLY = FALSE
 D. The COPY INTO options should be set to ON_ERROR = CONTINUE
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 740: What is an advantage of using a multi-cluster virtual warehouse as compared to a single-cluster virtual warehouse in Snowflake?
 A. A user can auto-suspend a running warehouse due to inactivity.
 B. A user can specify a warehouse size while configuring it for use.
@@ -4567,7 +4571,7 @@ A. ALTER MASKING POLICY
 B. APPLY MASKING POLICY
 C. CREATE MASKING POLICY
 D. SET MASKING POLICY Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 748: A Snowflake user runs a query for 36 seconds on a size 2XL virtual warehouse.What would be the credit consumption?
 A. Snowflake will charge for 36 seconds at the rate of 32 credits per hour.
 B. Snowflake will charge for 36 seconds at the rate of 64 credits per hour.
@@ -4579,7 +4583,7 @@ A. A materialized view can query only a single table. Most Voted
 B. Data accessed through materialized views can be stale.
 C. Materialized view refreshes need to be maintained by the user.
 D. Querying a materialized view is slower than executing a query against the base table of the view.
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 750: The use of which Snowflake table type will reduce costs when working with ETL workflows?
 A. External
 B. Permanent
@@ -4591,7 +4595,7 @@ A. encoding
 B. escape
 C. file_extension
 D. single Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 752: Which account usage view in Snowflake can be used to identify the most-frequently accessed tables?
 A. Access_History Most Voted
 B. Object_Dependencies
@@ -4623,7 +4627,7 @@ B. Extending a permanent table’s retention duration from 90 to 100 days
 C. Creating a clone of an entire table at a specific point in the past from a permanent table
 D. Disabling Time Travel for a specific object by setting DATA_RETENTION_TIME_IN_DAYS to NULL
 Respuesta correcta: C
-Pregunta 757: What are characteristics of Snowflake directory fables? (Choose two.)
+Pregunta 757: What are characteristics of Snowflake directory tables? (Choose two.)
 A. Directory tables are separate database objects.
 B. Directory tables can only be used with an external stage.
 C. Directory tables contain copies of staged files in binary format.
@@ -4642,7 +4646,7 @@ B. Dynamic data masking
 C. Partition scanning
 D. User authentication Most Voted
 E. Infrastructure management Most Voted
-Respuesta correcta: B,D
+Respuesta correcta: D,E
 Pregunta 760: What does the “percentage scanned from cache” represent in the Query Profile?
 A. The percentage of data scanned from the query cache
 B. The percentage of data scanned from the result cache
@@ -4661,7 +4665,7 @@ B. DATA_RETENTION_TIME_IN_DAYS
 C. MIN_DATA_RETENTION_TIME_IN_DAYS
 D. STATEMENT_TIMEOUT_IN_SECONDS Most Voted
 E. STATEMENT_QUEUED_TIMEOUT_IN_SECONDS Most Voted
-Respuesta correcta: A,E
+Respuesta correcta: D,E
 Pregunta 763: What metadata does Snowflake store for rows in micro-partitions? (Choose two.)
 A. Range of values
 B. Distinct values
@@ -4725,7 +4729,7 @@ A. LOAD_UNCERTAIN_FILES Most Voted
 B. FORCE
 C. VALIDATION_MODE
 D. LAST_MODIFIED
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 773: What service is provided as an integrated Snowflake feature to enhance Multi-Factor Authentication (MFA) support?
 A. Duo Security Most Voted
 B. OAuth
@@ -4737,7 +4741,7 @@ A. All statements being executed are queued.
 B. All statements being executed are restarted.
 C. All statements being executed are cancelled.
 D. All statements being executed are completed. Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 775: What tasks can an account administrator perform in the Data Exchange? (Choose two.)
 A. Add and remove members. Most Voted
 B. Delete data categories.
@@ -4807,7 +4811,7 @@ B. Provides a unified picture of what data was accessed and when it was accessed
 C. Protects sensitive data from unauthorized access while allowing authorized users to access it at query runtime
 D. Identifies columns with personal information and tags them so masking policies can be applied to protect sensitive data
 E. Determines whether a given row in a table can be accessed by the user by filtering the data based on a given policy
-Respuesta correcta: B,E
+Respuesta correcta: A,B
 Pregunta 786: What does Snowflake recommend a user do if they need to connect to Snowflake with a tool or technology that is not listed in Snowflake’s partner ecosystem?
 A. Use Snowflake’s native API.
 B. Use a custom-built connector.
@@ -4819,7 +4823,7 @@ A. The remainder of the session
 B. An unlimited amount of time Most Voted
 C. The length of time specified in the expiration_time argument
 D. The same length of time as the expiration period for the query results cache
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 788: Which applications can use key pair authentication? (Choose two).
 A. Snowflake Marketplace
 B. SnowCD
@@ -4872,7 +4876,7 @@ B. Fetch required attributes only. Most Voted
 C. Use a larger virtual warehouse. Most Voted
 D. Process the data in smaller batches.
 E. Add another cluster in the virtual warehouse.
-Respuesta correcta: C,D
+Respuesta correcta: B,C
 Pregunta 796: A Snowflake user wants to share unstructured data through the use of secure views.Which URL types can be used? (Choose two.)
 A. Scoped URL
 B. HTTPS URL
@@ -4901,7 +4905,7 @@ C. Data pruning
 D. Data compression
 E. Query parsing and optimization Most Voted
 Respuesta correcta: A,E
-Pregunta 800: The COPY INTO  command can unload data from a table directly into which locations? (Choose two.)
+Pregunta 800: The COPY INTO command can unload data from a table directly into which locations? (Choose two.)
 A. A named internal stage
 B. A Snowpipe REST endpoint
 C. A network share on a client machine
@@ -5021,7 +5025,7 @@ A. ACCOUNTADMIN
 B. SECURITYADMIN
 C. SYSADMIN Most Voted
 D. USERADMIN
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 819: What happens to the privileges granted to Snowflake system-defined roles?
 A. The privileges cannot be revoked.
 B. The privileges can be revoked by an ACCOUNTADMIN.
@@ -5118,7 +5122,7 @@ B. Each worksheet is a unique Snowflake session. Most Voted
 C. Users are limited to running only one query on a worksheet.
 D. The Snowflake session ends when a user switches worksheets.
 E. Users can import worksheets and share them with other users. Most Voted
-Respuesta correcta: A,B
+Respuesta correcta: B,E
 Pregunta 835: What are reasons for using the VALIDATE function in Snowflake after a COPY INTO command execution? (Choose two.)
 A. To validate the files that have been loaded earlier using the COPY INTO command Most Voted
 B. To fix errors that were made during the execution of the COPY INTO command
@@ -5138,7 +5142,7 @@ A. select * from testtable sample (0.1);
 B. select * from testtable sample (10); Most Voted
 C. select * from testtable sample (0.1 rows);
 D. select * from testtable sample (10 rows);
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 838: Which system function can be used to manage access to the data in a share and display certain data only to paying customers?
 A. SYSTEM$ALLOWLIST
 B. SYSTEM$ALLOWLIST_PRIVATELINK
@@ -5168,7 +5172,7 @@ A. ACCOUNTADMIN
 B. SYSADMIN
 C. SECURITYADMIN
 D. USERADMIN Most Voted
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 843: Which command will unload data from a table into an external stage?
 A. PUT
 B. INSERT
@@ -5237,7 +5241,7 @@ A. Data provider Most Voted
 B. Data consumer
 C. Reader account
 D. Managed account
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 854: Which function will provide the proxy information needed to protect Snowsight?
 A. SYSTEM$GET_TAG
 B. SYSTEM$GET_PRIVATELINK
@@ -5273,7 +5277,7 @@ A. If User2 has the SYSADMIN role they will be able to see the results.
 B. If User2 has the SECURITYADMIN role they will be able to see the results.
 C. If User2 has the ACCOUNTADMIN role they will be able to see the results.
 D. User2 will be unable to view the result set of the query executed by User1.
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 860: A permanent table and temporary table have the same name, TBL1, in a schema.What will happen if a user executes select * from TBL1;?
 A. The temporary table will take precedence over the permanent table.
 B. The permanent table will take precedence over the temporary table.
@@ -5305,7 +5309,7 @@ A. BUILD_SCOPED_FILE_URL Most Voted
 B. BUILD_STAGE_FILE_URL
 C. GET_PRESIGNED_URL Most Voted
 D. GET_STAGE_LOCATION
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 865: By default, which role can create resource monitors?
 A. ACCOUNTADMIN
 B. SECURITYADMIN
@@ -5379,14 +5383,14 @@ A. Operator tree
 B. Table pruning Most Voted
 C. Most expensive nodes
 D. Nodes by execution time
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 877: Which roles can make grant decisions to objects within a managed access schema? (Choose two.)
 A. ACCOUNTADMIN Most Voted
 B. SECURITYADMIN Most Voted
 C. SYSADMIN
 D. ORGADMIN
 E. USERADMIN
-Respuesta correcta: A,E
+Respuesta correcta: A,B
 Pregunta 878: How can a Snowflake user post-process the result of SHOW FILE FORMATS?
 A. Use the RESULT_SCAN function. Most Voted
 B. Create a CURSOR for the command.
@@ -5398,14 +5402,14 @@ A. 0
 B. 1500
 C. 3500
 D. 5000 Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 880: When initially creating an account in Snowflake, which settings can be specified? (Choose two.)
 A. Account name
 B. Organization name
 C. Account locator
 D. Region Most Voted
 E. Snowflake edition Most Voted
-Respuesta correcta: A,D
+Respuesta correcta: D,E
 Pregunta 881: What activities can a user with the ORGADMIN role perform? (Choose two.)
 A. Create an account for an organization. Most Voted
 B. Edit the account data for an organization.
@@ -5467,7 +5471,7 @@ B. Binary file in Parquet Most Voted
 C. Comma-separated JSON
 D. Newline Delimited JSON Most Voted
 E. Plain text file containing XML elements
-Respuesta correcta: A,B
+Respuesta correcta: B,D
 Pregunta 891: In Snowflake, the use of federated authentication enables which Single Sign-On (SSO) workflow activities? (Choose two.)
 A. Authorizing users
 B. Initiating user sessions
@@ -5480,7 +5484,7 @@ A. Add or remove users from a worksheet.
 B. Move a worksheet to a folder or a dashboard. Most Voted
 C. Combine multiple worksheets into a single worksheet.
 D. Tag frequently accessed worksheets for ease of access.
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 893: When unloading data from Snowflake to AWS, what permissions are required? (Choose two.)
 A. s3:DeleteObject
 B. s3:CopyObject
@@ -5500,7 +5504,7 @@ B. Default database
 C. Default schema
 D. Notifications Most Voted
 E. Username
-Respuesta correcta: B,C
+Respuesta correcta: A,D
 Pregunta 896: What privilege is needed for a Snowflake user to see the definition of a secure view?
 A. OWNERSHIP
 B. MODIFY
@@ -5512,7 +5516,7 @@ A. Set tasks for immediate suspension.
 B. Set tasks for suspension after 5 minutes.
 C. Set query warehouses for suspension after 15 minutes.
 D. Set query warehouses for suspension after 30 minutes.
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 898: When does Snowflake automatically encrypt data that is loaded into Snowflake? (Choose two.)
 A. After the data is micro-partitioned.
 B. After loading the data into a table. Most Voted
@@ -5533,20 +5537,20 @@ B. Both tables have data retention period maximums of one day. Most Voted
 C. Both tables are visible only to a single user session.
 D. For both tables, the retention period ends when the tables are dropped.
 E. For both tables, the retention period does not end when the session ends.
-Respuesta correcta: A,E
+Respuesta correcta: A,B
 Pregunta 901: What are the least privileges needed to view and modify resource monitors? (Choose two.)
 A. SELECT
 B. OWNERSHIP
 C. MONITOR Most Voted
 D. MODIFY Most Voted
 E. USAGE
-Respuesta correcta: B,C
+Respuesta correcta: C,D
 Pregunta 902: When does a materialized view get suspended in Snowflake?
 A. When a column is added to the base table
 B. When a column is dropped from the base table Most Voted
 C. When a DML operation is run on the base table
 D. When the base table is reclustered
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 903: What happens when a Snowflake user changes the data retention period at the schema level?
 A. All child objects will retain data for the new retention period.
 B. All child objects that do not have an explicit retention period will automatically inherit the new retention period. Most Voted
@@ -5566,7 +5570,7 @@ B. SELECT * FROM SNOWPRO TABLESAMPLE (10 ROWS) Most Voted
 C. SELECT * FROM SNOWPRO TABLESAMPLE BLOCK (10)
 D. SELECT * FROM SNOWPRO TABLESAMPLE BLOCK (10 ROWS)
 E. SELECT * FROM SNOWPRO SAMPLE BERNOULLI (10 ROWS) Most Voted
-Respuesta correcta: B,D
+Respuesta correcta: B,E
 Pregunta 906: Why would a Snowflake user choose to use a transient table?
 A. To store data for long-term analysis
 B. To store large data files that are used frequently
@@ -5578,7 +5582,7 @@ A. A single data type, with one or more conditions, and one or more masking func
 B. A single data type, with only one condition, and only one masking function
 C. Multiple data types, with only one condition, and one or more masking functions
 D. Multiple data types, with one or more conditions, and one or more masking functions
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 908: What actions can be performed by a consumer account on a shared database? (Choose two.)
 A. Cloning a shared table
 B. Modifying the data in a shared table
@@ -5598,7 +5602,8 @@ B. SCIM
 C. Role-Based Access Control (RBAC)
 D. Key pair authentication
 Respuesta correcta: D
-Pregunta 911: Given the statement template below, which database objects can be added to a share? (Choose two.)GRANT [privilege] ON [object] [object_name] TO SHARE [share_name];
+Pregunta 911: Given the statement template below, which database objects can be added to a share? (Choose two.)
+GRANT [privilege] ON [object] [object_name] TO SHARE [share_name];
 A. Secure functions Most Voted
 B. Stored procedures
 C. Streams
@@ -5641,13 +5646,13 @@ B. JSON Most Voted
 C. ORC
 D. Parquet Most Voted
 E. XML
-Respuesta correcta: A,D
+Respuesta correcta: B,D
 Pregunta 918: Which system-defined Snowflake role has permission to rename an account and specify whether the original URL can be used to access the renamed account?
 A. ACCOUNTADMIN
 B. SECURITYADMIN
 C. SYSADMIN
 D. ORGADMIN Most Voted
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 919: How can a user get the MOST detailed information about individual table storage details in Snowflake?
 A. SHOW TABLES command
 B. SHOW EXTERNAL TABLES command
@@ -5671,7 +5676,7 @@ A. The cache is dropped when the warehouse is suspended and is no longer availab
 B. The warehouse cache persists for as long as the warehouse exists, regardless of its suspension status.
 C. The cache is maintained for up to two hours and can be restored if the warehouse is restarted within this limit.
 D. The cache is maintained for the auto_suspend duration and can be restored if the warehouse is restarted within this limit.
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 923: What are the primary authentication methods that Snowflake supports for securing REST API interactions? (Choose two.)
 A. OAuth Most Voted
 B. Key pair authentication
@@ -5698,10 +5703,10 @@ C. CREATE SECURITY INTEGRATION
 D. CREATE PASSWORD POLICY
 Respuesta correcta: C
 Pregunta 927: Which sequence (order) of object privileges should be used to grant a custom role read-only access on a table?
-A. A.
-B. B.
-C. C.
-D. D.
+A. SCHEMA => USAGE - DATABASE => USAGE - TABLE => USAGE
+B. SCHEMA => USAGE - DATABASE => USAGE - TABLE => SELECT
+C. DATABASE => USAGE - SCHEMA => USAGE - TABLE => SELECT
+D. DATABASE => USAGE - SCHEMA => USAGE - TABLE => OPERATE
 Respuesta correcta: C
 Pregunta 928: Which command removes a role from another role or a user in Snowflake?
 A. ALTER ROLE
@@ -5752,7 +5757,7 @@ B. EXTERNAL_TABLE_FILE_REGISTRATION_HISTORY
 C. EXTERNAL_TABLE_FILES
 D. MATERIALIZED_VIEW_REFRESH_HISTORY
 E. STAGE_DIRECTORY_FILE_REGISTRATION_HISTORY Most Voted
-Respuesta correcta: B,D
+Respuesta correcta: A,E
 Pregunta 936: Which Snowflake table type persists until it is explicitly dropped, is available for all users with relevant privileges (across sessions), and has no Fail-safe period?
 A. External
 B. Permanent
@@ -5789,7 +5794,7 @@ A. 2
 B. 3
 C. 5
 D. 7
-Respuesta correcta: A
+Respuesta correcta: C
 Pregunta 942: Which key access control concept does Snowflake describe as a defined level of access to an object?
 A. Grant
 B. Privilege
@@ -5807,7 +5812,7 @@ A. 32
 B. 64
 C. 128 Most Voted
 D. 256
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 945: What is the purpose of a Query Profile?
 A. To profile how many times a particular query was executed and analyze its usage statistics over time.
 B. To profile a particular query to understand the mechanics of the query, its behavior, and performance.
@@ -5826,7 +5831,7 @@ A. MAX_CLUSTER_COUNT is increased and new_max_clusters is greater than running_c
 B. MAX_CLUSTER_COUNT is decreased and new_max_clusters is less than running_clusters
 C. MIN_CLUSTER_COUNT is increased and new_min_clusters is greater than running_clusters Most Voted
 D. MIN_CLUSTER_COUNT is decreased and new_min_clusters is less than running_clusters
-Respuesta correcta: A
+Respuesta correcta: C
 Pregunta 948: Which Snowflake role can manage any object grant globally, including modifying and revoking grants?
 A. USERADMIN
 B. ORGADMIN
@@ -5838,7 +5843,7 @@ A. MODIFY
 B. READ
 C. SELECT
 D. USAGE Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 950: In the Data Exchange, who can get or request data from the listings? (Choose two.)
 A. Users with ACCOUNTADMIN role Most Voted
 B. Users with SYSADMIN role
@@ -5851,7 +5856,7 @@ A. Repair the failed resources.
 B. Restart the failed resources.
 C. Queue the failed resources.
 D. Provision the failed resources.
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 952: How does Snowflake define its approach to Discretionary Access Control (DAC)?
 A. A defined level of access to an object.
 B. An entity to which access can be granted.
@@ -5869,7 +5874,7 @@ A. An individual row
 B. An individual column
 C. A view
 D. A file in a stage
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 955: Which Snowflake feature records changes made to a table so actions can be taken using that change data capture?
 A. Materialized View
 B. Pipe
@@ -6029,7 +6034,7 @@ B. USERADMIN
 C. PUBLIC
 D. SYSADMIN
 E. Any role that has the global ATTACH POLICY privilege
-Respuesta correcta: A,B
+Respuesta correcta: A,E
 Pregunta 981: For which use cases is running a virtual warehouse required? (Choose two.)
 A. When creating a table
 B. When loading data into a table
@@ -6079,7 +6084,7 @@ A. Object tags
 B. Masking policies
 C. Row access policies
 D. OBJECT_DEPENDENCIES view
-Respuesta correcta: A
+Respuesta correcta: D
 Pregunta 989: Which chart type is supported in Snowsight for Snowflake users to visualize data with dashboards?
 A. Area chart
 B. Box plot
@@ -6134,7 +6139,7 @@ A. TRUNCATE
 B. DELETE
 C. UPDATE
 D. SELECT
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 998: What happens when a suspended virtual warehouse is resized in Snowflake?
 A. It will return an error.
 B. It will return a warning.
@@ -6213,7 +6218,7 @@ B. DATA_TRANSFER_HISTORY
 C. WAREHOUSE_METERING_HISTORY
 D. MONETIZED_USAGE_DAILY
 E. LISTING_TELEMETRY_DAILY
-Respuesta correcta: D
+Respuesta correcta: D,E
 Pregunta 1011: What does a table with a clustering depth of 1 mean in Snowflake?
 A. The table has only 1 micro-partition.
 B. The table has 1 overlapping micro-partition.
@@ -6249,7 +6254,7 @@ A. A stage with a directory table set to automatically refresh will be created.
 B. A stage with a directory table that has metadata that must be manually refreshed will be created.
 C. An error will be received stating that the storage location for the stage must be identified when creating a stage with a directory table.
 D. The command will fail to run because the name of the directory table is not specified.
-Respuesta correcta: C
+Respuesta correcta: B
 Pregunta 1017: Which statistics on a Query Profile reflect the efficiency of the query pruning? (Choose two.)
 A. Partitions scanned
 B. Partitions total
@@ -6262,7 +6267,7 @@ A. INSERT
 B. JOIN
 C. RENAME
 D. ALTER Most Voted
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 1019: A user wants to access files stored in a stage without authenticating into Snowflake.Which type of URL should be used?
 A. File URL
 B. Staged URL
@@ -6293,7 +6298,7 @@ B. Cartesian products
 C. Insufficient privileges
 D. Queries too large to fit in memory
 E. Virtual warehouse credit consumption
-Respuesta correcta: A,B
+Respuesta correcta: B,D
 Pregunta 1024: What happens to the objects in a reader account when the DROP MANAGED ACCOUNT command is executed?
 A. The objects are dropped.
 B. The objects enter the Fail-safe period.
@@ -6369,7 +6374,7 @@ B. Bytes written to result
 C. Partitions scanned
 D. Partitions total
 E. Percentage scanned from cache
-Respuesta correcta: A,C
+Respuesta correcta: C,D
 Pregunta 1036: Which element in the Query Profile interface shows the relationship between the nodes in the execution of a query?
 A. Node List
 B. Steps
@@ -6381,7 +6386,7 @@ A. The queries on that view will generate an error message. Most Voted
 B. The queries on that view will return the last stored data.
 C. The queries on that view will return the data using Time Travel.
 D. The queries on that view will return the data with a warning message.
-Respuesta correcta: B
+Respuesta correcta: A
 Pregunta 1038: Which Snowflake function will parse a JSON-null into a SQL-null?
 A. TO_CHAR
 B. TO_VARIANT
@@ -6418,7 +6423,7 @@ B. SELECT
 C. MODIFY
 D. OWNERSHIP Most Voted
 E. CREATE USER Most Voted
-Respuesta correcta: A,E
+Respuesta correcta: D,E
 Pregunta 1044: Which items are considered schema objects in Snowflake? (Choose two.)
 A. Pipe
 B. File format
@@ -6437,7 +6442,7 @@ A. MODIFY, MONITOR and OPERATE privileges
 B. OWNERSHIP and USAGE privileges
 C. APPLYBUDGET and AUDIT privileges
 D. MANAGE LISTING AUTOFULFILLMENT and RESOLVE ALL privileges
-Respuesta correcta: A
+Respuesta correcta: B
 Pregunta 1047: A Snowflake account has activated federated authentication.What will occur when a user with a password that was defined by Snowflake attempts to log in to Snowflake?
 A. The user will be unable to enter a password.
 B. The user will encounter an error, and will not be able to log in.
@@ -6461,7 +6466,7 @@ A. The database owner
 B. The object owner
 C. The schema owner
 D. The Snowflake user's role
-Respuesta correcta: B
+Respuesta correcta: C
 Pregunta 1051: How can a Snowsight user change a Standard virtual warehouse to a Snowpark-optimized virtual warehouse?
 A. Use the ALTER WAREHOUSE command on an active Standard virtual warehouse.
 B. Use the ALTER WAREHOUSE command on an active Snowpark-optimized warehouse.
@@ -6479,7 +6484,7 @@ A. TO_OBJECT
 B. TO_JSON
 C. TO_VARIANT
 D. OBJECT_CONSTRUCT
-Respuesta correcta: B
+Respuesta correcta: D
 Pregunta 1054: What is the purpose of the STRIP_NULL_VALUES file format option when loading semi-structured data files into Snowflake?
 A. It removes null values from all columns in the data.
 B. It converts null values to empty strings during loading.
@@ -6535,7 +6540,7 @@ A. View
 B. Materialized view
 C. External table
 D. User-Defined Function (UDF)
-Respuesta correcta: A
+Respuesta correcta: C
 Pregunta 1063: Which parameter can be set at the account level to set the minimum number of days for which Snowflake retains historical data in Time Travel?
 A. DATA_RETENTION_TIME_IN_DAYS
 B. MAX_DATA_EXTENSION_TIME_IN_DAYS
@@ -6572,11 +6577,11 @@ A. It selectively masks plain text data.
 B. It selectively masks multiple columns.
 C. It masks all values in a given column.
 D. It selectively masks a column value based on another column.
-Respuesta correcta: D
+Respuesta correcta: A
 Pregunta 1069: If a virtual warehouse runs for 61 seconds, shuts down, and then restarts and runs for 30 seconds, for how many seconds is it billed?
 A. 60
 B. 91
-C. 120 Most Voted
+C. 120
 D. 121
 Respuesta correcta: D
 Pregunta 1070: What function, combined with the copy command, should be used to unload data from a relational table into a JSON file?
@@ -6616,7 +6621,7 @@ B. SELECT
 C. LS Most Voted
 D. GET
 E. DESCRIBE
-Respuesta correcta: A,B
+Respuesta correcta: A,C
 Pregunta 1076: Which stages are created by default, with no need to use the CREATE STAGE command? (Choose two.)
 A. External stage
 B. Internal stage
@@ -6629,7 +6634,7 @@ A. BUILD_STAGE_FILE_URL
 B. GET_ABSOLUTE_PATH
 C. BUILD_SCOPED_FILE_URL
 D. GET_PRESIGNED_URL
-Respuesta correcta: C
+Respuesta correcta: A
 Pregunta 1078: Who can create and manage reader accounts? (Choose two.)
 A. A user with ACCOUNTADMIN role Most Voted
 B. A user with SECURITYADMIN role
@@ -6704,7 +6709,7 @@ A. When using a paid listing on the Snowflake Marktetplace
 B. When using a private listing on the Snowflake Marketplace Most Voted
 C. When using a personalized listing on the Snowflake Marketplace
 D. When using a Direct Share with another account
-Respuesta correcta: D
+Respuesta correcta: B
 Pregunta 1090: Which languages require that User-Defined Function (UDF) handlers be written inline? (Choose two.)
 A. Java
 B. Javascript Most Voted
@@ -6730,7 +6735,7 @@ B. The storage file format
 C. The cloud region used by the account Most Voted
 D. The type of data being stored
 E. The cloud platform being used
-Respuesta correcta: B,C
+Respuesta correcta: A,C
 Pregunta 1094: Which ACCOUNT_USAGE schema database role provides visibility into policy-related information?
 A. USAGE_VIEWER
 B. GOVERNANCE_VIEWER Most Voted
@@ -6754,13 +6759,13 @@ A. Use clustering keys
 B. Create materialized views
 C. Use the search optimization service Most Voted
 D. Use the query acceleration service
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 1098: A column named “Data” contains VARIANT data and stores values as follows:How will Snowflake extract the employee’s name from the column data?
 A. Data:employee.name
 B. DATA:employee.name
 C. data:Employee.name Most Voted
 D. data:employee.name
-Respuesta correcta: D
+Respuesta correcta: C
 Pregunta 1099: Use of which Snowflake function is recommended when unloading data from a relational table into a JSON file?
 A. TO_JSON
 B. TO_VARIANT
@@ -6785,7 +6790,7 @@ B. MINS_TO_BYPASS_MFA Most Voted
 C. PASSWORD
 D. MINS_TO_UNLOCK
 E. MUST_CHANGE_PASSWORD
-Respuesta correcta: B,D
+Respuesta correcta: A,B
 Pregunta 1103: Which table type has a Fail-safe period of 7 days?
 A. Temporary table
 B. Transient table
@@ -6809,7 +6814,7 @@ A. Pipes
 B. Users
 C. Stages
 D. Materialized views
-Respuesta correcta: C
+Respuesta correcta: D
 Pregunta 1107: When unloading data, which combination of parameters should be used to differentiate between empty strings and NULL values? (Choose two.)
 A. ESCAPE_UNENCLOSED_FIELD
 B. REPLACE_INVALID_CHARACTERS
@@ -6866,13 +6871,13 @@ B. Users
 C. External tables
 D. Internal named stages
 E. External named stages
-Respuesta correcta: A,E
+Respuesta correcta: A,D
 Pregunta 1116: What can be used to process unstructured data?
 A. External tables
 B. The COPY INTO  command 
 C. External functions 
 D. Snowpipe 
-Respuesta correcta: A 
+Respuesta correcta: C
 Pregunta 1117: Which type of workload is recommended for Snowpark-optimized virtual warehouses? 
 A. Workloads with ad hoc analytics 
 B. Workloads that have large memory requirements 
@@ -6897,3 +6902,175 @@ B. Role
 C. Privilege 
 D. User 
 Respuesta correcta: B 
+Pregunta 1121: When an object is created in Snowflake, who owns the object?
+A. The public role
+B. The user's default role
+C. The current active primary role
+D. The owner of the parent schema
+Respuesta correcta: C
+Pregunta 1122: What is the MINIMUM Snowflake edition that must be used in order to see the ACCESS_HISTORY view?
+A. Standard
+B. Enterprise
+C. Business Critical
+D. Virtual Private Snowflake (VPS)
+Respuesta correcta: B
+Pregunta 1123: Which role is responsible for managing the billing and credit data within Snowflake?
+A. ORGADMIN
+B. ACCOUNTADMIN
+C. SYSADMIN
+D. SECURITYADMIN
+Respuesta correcta: B
+Pregunta 1124: What can be used to identify the database, schema, stage, and file path to a set of files, and to allow a role that has sufficient privileges on the stage to access the files?
+A. A Scoped URL
+B. A file URL 
+C. A pre-signed URL
+D. A directory table
+Respuesta correcta: B
+Pregunta 1125: Which command is used to remove files from either external cloud storage or an internal stage?
+A. DELETE
+B. REMOVE
+C. TRUNCATE
+D. DROP
+Respuesta correcta: B
+Pregunta 1126: How does Snowflake recommend defining a clustering key on a high-cardinality column that includes a 15 digit ID numbered column, ID_NUMBER?
+A. TRUNC(ID_NUMBER, -6)
+B. TRUNC(ID_NUMBER, 5)
+C. ID_NUMBER*100
+D. TO_CHAR(ID_NUMBER)
+Respuesta correcta: A
+Pregunta 1127: While unloading data into a stage, how can the user ensure that the output will be a single file?
+A. Use the COPY option FILES=SINGLE.
+B. Use the COPY option SINGLE=TRUE.
+C. Use the GET option SINGLE=TRUE.
+D. Use the GET option FILES=SINGLE.
+Respuesta Correcta: B
+Pregunta 1128: Which query types will have significant performance improvement when run using the search optimization service? (Choose two.)
+A. Range searches
+B. Equality searches
+C. Substring searches
+D. Queries with IN predicates
+E. Queries with aggregation
+Respuesta Correcta: B,C
+Pregunta 1129: Which Query Profile operator is considered a DML operator?
+A. ExternalScan
+B. Flatten
+C. Merge
+D. Sort
+Respuesta Correcta: C
+Pregunta 1130: Masking policies are created at what level in Snowflake?
+A. Table
+B. Column
+C. Schema
+D. Database
+Respuesta Correcta: C
+Pregunta 1131: What would cause different results to be returned when running the same query twice?
+A. SAMPLE is used and the seed is set.
+B. SAMPLE is used and the seed is not set.
+C. Fraction-based sampling is used.
+D. Fixed-size sampling is used.
+Respuesta Correcta: B
+Pregunta 1132: What are type predicates used for?
+A. Extracting data from a VARIANT column
+B. Casting a value in a VARIANT column to a particular data type
+C. Determining if a value in a VARIANT column is a particular data type
+D. Manipulating objects and arrays in a VARIANT column
+Respuesta Correcta: C
+Pregunta 1136: Why would a Snowflake user load JSON data into a VARIANT column instead of a string column?
+A. A VARIANT column is more secure than a string column.
+B. A VARIANT column compresses data and a string column does not.
+C. A VARIANT column can be used to create a data hierarchy and a string column cannot.
+D. A VARIANT column will have a better query performance than a string column.
+Respuesta Correcta: C
+Pregunta 1137: How can a 5 GB table be downloaded into a single file MOST efficiently?
+A. Keep the default MAX_FILE_SIZE to 16 MB.
+B. Set the default MAX_FILE_SIZE to 5 GB.
+C. Set the SINGLE parameter to TRUE.
+D. Use a regular expression in the stage specifications of the COPY command.
+Respuesta Correcta: C
+Pregunta 1139: Which Snowflake governance feature allows users to assign metadata labels to improve data governance and database access control?
+A. Secure functions
+B. Secure views
+C. Object tagging
+D. Row-level security
+Respuesta Correcta: C
+Pregunta 1140: What is the MINIMUM Snowflake edition that supports database replication?
+A. Standard
+B. Enterprise
+C. Business Critical
+D. Virtual Private Snowflake (VPS)
+Respuesta Correcta: A
+Pregunta 1143: Which privilege grants the ability to set a column-level security masking policy on a table or view column?
+A. APPLY
+B. CREATE
+C. SET
+D. MODIFY
+Respuesta Correcta: A
+Pregunta 1144: When sharing data in Snowflake, what privileges does a Provider need to grant along with a share? (Choose two.)
+A. USAGE on the specific tables in the database.
+B. MODIFY on the specific tables in the database.
+C. SELECT on the specific tables in the database.
+D. USAGE on the database and the schema containing the tables to share.
+E. OPERATE on the database and the schema containing the tables to share.
+Respuesta Correcta: C,D
+Pregunta 1147: Which data sharing option allows a Snowflake user to set up and manage a group of accounts and offer a share to that group?
+A. Free listing
+B. Paid listing
+C. Direct share
+D. Data Exchange
+Respuesta Correcta: D
+Pregunta 1153: What Snowflake objects can contain custom application logic written in JavaScript? (Choose two.)
+A. Stored procedures
+B. Stages
+C. Tasks
+D. Views
+E. User-Defined Functions (UDFs)
+Respuesta Correcta: A,E
+Pregunta 1154: What is the MINIMUM Snowflake edition required to use the column-level security feature?
+A. Standard
+B. Enterprise
+C. Business Critical
+D. Virtual Private Snowflake (VPS) 
+Respuesta Correcta: B
+Pregunta 1155: Which command should be used to assign a key to a Snowflake user who needs to connect using key pair authentication?
+A. ALTER USER jsmith SET RSA_P8_KEY='MIIBIjANBgkqh...';
+B. ALTER USER jsmith SET ENCRYPTED_KEY='MIIBIjANBgkqh...';
+C. ALTER USER jsmith SET RSA_PRIVATE_KEY='MIIBIjANBgkqh...';
+D. ALTER USER jsmith SET RSA_PUBLIC_KEY='MIIBIjANBgkqh...';
+Respuesta Correcta: D
+Pregunta 1162: What should an account administrator do to help a user log into Snowflake, if the user cannot authenticate using Multi-Factor Authentication (MFA)?
+A. Set DISABLE_MFA to TRUE for the user.
+B. Set MINS_TO_BYPASS_MFA equal to 0 for the user.
+C. Set ALLOW_ID_TOKEN to FALSE for the user.
+D. Set ALLOW_CLIENT_MFA_CACHING to FALSE for the user.
+Respuesta Correcta: A
+Pregunta 1163: Which command can be executed from a reader account?
+A. INSERT
+B. CREATE SHARE
+C. SHOW PROCEDURES
+D. COPY INTO
+Respuesta Correcta: D
+Pregunta 1164: Which command line parameter value can be pre-specified as an environment variable in SnowSQL?
+A. HOST
+B. VARIABLE
+C. OPTION
+D. MFA-PASSCODE
+Respuesta Correcta: 
+Pregunta 1165: Which command is used to determine the file name of each row of data from a staged file?
+A. SHOW FILE FORMATS
+B. SELECT METADATA$FILE_CONTENT_KEY
+C. SELECT METADATA$FILE_ROW_NUMBER
+D. SELECT METADATA$FILENAME
+Respuesta Correcta: D
+Pregunta 1166: Which Snowflake feature improves the performance of point lookup queries?
+A. Materialized views
+B. Automatic clustering
+C. Query acceleration service
+D. Search optimization service
+Respuesta Correcta: D
+Pregunta 1167: What is the impact of selecting one Snowflake edition over another? (Choose two.)
+A. The edition will impact the unit costs for storage.
+B. The edition will impact which regions can be accessed by the accounts.
+C. The edition will determine the unit costs for the compute credits.
+D. The edition will impact the total allowed storage space.
+E. The edition will set a limit on the number of compute credits that can be consumed.
+Respuesta Correcta: A,C
